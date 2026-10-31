@@ -1,0 +1,11 @@
+{
+  "unique_csv": 55,
+  "csv_occurrences": 99,
+  "unique_rows": 130768,
+  "small_files": 20,
+  "small_rows": 15687,
+  "median_dt_range_s": [
+    0.2,
+    0.201
+  ]
+}

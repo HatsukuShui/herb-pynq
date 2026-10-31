@@ -1,0 +1,791 @@
+{
+  "selection": "feature view selected by family within each stored inner CV ranking",
+  "families": [
+    {
+      "family": "logistic",
+      "nested_float": {
+        "events": 160,
+        "correct": 155,
+        "accuracy": 0.96875,
+        "macro_f1": 0.9690084733409509,
+        "confusion_matrix": [
+          [
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            19,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            19
+          ]
+        ],
+        "classification_report": {
+          "干姜": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "肉桂": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 20.0
+          },
+          "川芎": {
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1-score": 0.975609756097561,
+            "support": 20.0
+          },
+          "熟地黄": {
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1-score": 0.9473684210526315,
+            "support": 20.0
+          },
+          "柴胡": {
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1-score": 0.975609756097561,
+            "support": 20.0
+          },
+          "当归": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 20.0
+          },
+          "甘草": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "苍术": {
+            "precision": 0.8636363636363636,
+            "recall": 0.95,
+            "f1-score": 0.9047619047619048,
+            "support": 20.0
+          },
+          "accuracy": 0.96875,
+          "macro avg": {
+            "precision": 0.9710497835497836,
+            "recall": 0.96875,
+            "f1-score": 0.9690084733409509,
+            "support": 160.0
+          },
+          "weighted avg": {
+            "precision": 0.9710497835497837,
+            "recall": 0.96875,
+            "f1-score": 0.969008473340951,
+            "support": 160.0
+          }
+        }
+      },
+      "nested_q16": {
+        "events": 160,
+        "correct": 155,
+        "accuracy": 0.96875,
+        "macro_f1": 0.9690084733409509,
+        "confusion_matrix": [
+          [
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            19,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            19
+          ]
+        ],
+        "classification_report": {
+          "干姜": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "肉桂": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 20.0
+          },
+          "川芎": {
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1-score": 0.975609756097561,
+            "support": 20.0
+          },
+          "熟地黄": {
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1-score": 0.9473684210526315,
+            "support": 20.0
+          },
+          "柴胡": {
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1-score": 0.975609756097561,
+            "support": 20.0
+          },
+          "当归": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 20.0
+          },
+          "甘草": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "苍术": {
+            "precision": 0.8636363636363636,
+            "recall": 0.95,
+            "f1-score": 0.9047619047619048,
+            "support": 20.0
+          },
+          "accuracy": 0.96875,
+          "macro avg": {
+            "precision": 0.9710497835497836,
+            "recall": 0.96875,
+            "f1-score": 0.9690084733409509,
+            "support": 160.0
+          },
+          "weighted avg": {
+            "precision": 0.9710497835497837,
+            "recall": 0.96875,
+            "f1-score": 0.969008473340951,
+            "support": 160.0
+          }
+        }
+      },
+      "float_q16_agreement": 160,
+      "hidden_saturated_elements": 0,
+      "final_candidate": {
+        "id": "shape50_logistic",
+        "view": "shape50",
+        "family": "logistic"
+      }
+    },
+    {
+      "family": "svm",
+      "nested_float": {
+        "events": 160,
+        "correct": 153,
+        "accuracy": 0.95625,
+        "macro_f1": 0.9571103734213491,
+        "confusion_matrix": [
+          [
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            19,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            17,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            19,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            19
+          ]
+        ],
+        "classification_report": {
+          "干姜": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "肉桂": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 20.0
+          },
+          "川芎": {
+            "precision": 0.95,
+            "recall": 0.95,
+            "f1-score": 0.95,
+            "support": 20.0
+          },
+          "熟地黄": {
+            "precision": 1.0,
+            "recall": 0.85,
+            "f1-score": 0.918918918918919,
+            "support": 20.0
+          },
+          "柴胡": {
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1-score": 0.975609756097561,
+            "support": 20.0
+          },
+          "当归": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 20.0
+          },
+          "甘草": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "苍术": {
+            "precision": 0.7916666666666666,
+            "recall": 0.95,
+            "f1-score": 0.8636363636363636,
+            "support": 20.0
+          },
+          "accuracy": 0.95625,
+          "macro avg": {
+            "precision": 0.9617559523809524,
+            "recall": 0.95625,
+            "f1-score": 0.9571103734213491,
+            "support": 160.0
+          },
+          "weighted avg": {
+            "precision": 0.9617559523809524,
+            "recall": 0.95625,
+            "f1-score": 0.9571103734213491,
+            "support": 160.0
+          }
+        }
+      }
+    },
+    {
+      "family": "mlp32",
+      "nested_float": {
+        "events": 160,
+        "correct": 152,
+        "accuracy": 0.95,
+        "macro_f1": 0.9502853345841151,
+        "confusion_matrix": [
+          [
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            19,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            18,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            19,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            18
+          ]
+        ],
+        "classification_report": {
+          "干姜": {
+            "precision": 0.95,
+            "recall": 0.95,
+            "f1-score": 0.95,
+            "support": 20.0
+          },
+          "肉桂": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "川芎": {
+            "precision": 0.9047619047619048,
+            "recall": 0.95,
+            "f1-score": 0.926829268292683,
+            "support": 20.0
+          },
+          "熟地黄": {
+            "precision": 0.9473684210526315,
+            "recall": 0.9,
+            "f1-score": 0.9230769230769231,
+            "support": 20.0
+          },
+          "柴胡": {
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1-score": 0.975609756097561,
+            "support": 20.0
+          },
+          "当归": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 20.0
+          },
+          "甘草": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "苍术": {
+            "precision": 0.8571428571428571,
+            "recall": 0.9,
+            "f1-score": 0.8780487804878049,
+            "support": 20.0
+          },
+          "accuracy": 0.95,
+          "macro avg": {
+            "precision": 0.9514567669172932,
+            "recall": 0.95,
+            "f1-score": 0.9502853345841151,
+            "support": 160.0
+          },
+          "weighted avg": {
+            "precision": 0.9514567669172933,
+            "recall": 0.95,
+            "f1-score": 0.9502853345841151,
+            "support": 160.0
+          }
+        }
+      },
+      "nested_q16": {
+        "events": 160,
+        "correct": 152,
+        "accuracy": 0.95,
+        "macro_f1": 0.9502853345841151,
+        "confusion_matrix": [
+          [
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            19,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            18,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            19,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            18
+          ]
+        ],
+        "classification_report": {
+          "干姜": {
+            "precision": 0.95,
+            "recall": 0.95,
+            "f1-score": 0.95,
+            "support": 20.0
+          },
+          "肉桂": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "川芎": {
+            "precision": 0.9047619047619048,
+            "recall": 0.95,
+            "f1-score": 0.926829268292683,
+            "support": 20.0
+          },
+          "熟地黄": {
+            "precision": 0.9473684210526315,
+            "recall": 0.9,
+            "f1-score": 0.9230769230769231,
+            "support": 20.0
+          },
+          "柴胡": {
+            "precision": 0.9523809523809523,
+            "recall": 1.0,
+            "f1-score": 0.975609756097561,
+            "support": 20.0
+          },
+          "当归": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 20.0
+          },
+          "甘草": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1-score": 0.9743589743589743,
+            "support": 20.0
+          },
+          "苍术": {
+            "precision": 0.8571428571428571,
+            "recall": 0.9,
+            "f1-score": 0.8780487804878049,
+            "support": 20.0
+          },
+          "accuracy": 0.95,
+          "macro avg": {
+            "precision": 0.9514567669172932,
+            "recall": 0.95,
+            "f1-score": 0.9502853345841151,
+            "support": 160.0
+          },
+          "weighted avg": {
+            "precision": 0.9514567669172933,
+            "recall": 0.95,
+            "f1-score": 0.9502853345841151,
+            "support": 160.0
+          }
+        }
+      },
+      "float_q16_agreement": 160,
+      "hidden_saturated_elements": 0,
+      "final_candidate": {
+        "id": "shape50_mlp32",
+        "view": "shape50",
+        "family": "mlp32"
+      }
+    }
+  ],
+  "warnings": [],
+  "input_frac": 10,
+  "weight_frac": 12,
+  "hidden_frac": 10,
+  "output_frac": 12,
+  "input_out_of_range": "reject, never wrap",
+  "hidden_activation": "ReLU then saturation at 32767",
+  "data_independence": "unknown; file-group nested estimates, no new independent test"
+}

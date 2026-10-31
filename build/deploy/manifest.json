@@ -1,0 +1,10 @@
+{
+  "fusion_q32_replay.json": "e801773e773b4b9b4ca47672cbf3b24fa0962ce001a9ac992d2d26da36edd850",
+  "hardware_export/herb_models.xsa": "85f0d359e2e1c563c3651078c33346dbfed4d711224207d95ea93785766418a2",
+  "herb_models.bit": "c3a37e11a9a8dddb84be3042daebdf75272c85523ff467478d40731badcd0d0c",
+  "herb_models.hwh": "c19ee06e27ab259bee4a0631c8fe2b42e86d73e7512a654727547a964459684a",
+  "README.md": "bc3a2041c1de0893ae85f719ba8a6440f3da623b9f4d852e3f96964bd91c9d52",
+  "replay_models.py": "7ecbf80a96693e09c738139e94b095727b2e80b7f06fa9def493fa61bee5813a",
+  "run_on_pynq.sh": "06493a393e47ca5739a9367eeb002223cb8634a236a8fcec9fd94f040f7e3530",
+  "small_lr_replay.json": "9b1831e6e9beef9c26c2057f1847c70b662be73579531fddb5c9df303553b47a"
+}

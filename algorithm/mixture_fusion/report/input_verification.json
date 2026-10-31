@@ -1,0 +1,24 @@
+{
+  "raw_events": 410,
+  "max_independent_python_feature_error": 0.0,
+  "outer_fold_train_scalers_checked": 3,
+  "all_normal_events_held_out_once": true,
+  "record_and_group_overlap": false,
+  "final_scaler_training_events": 400,
+  "subprocess_cli_formats": [
+    "float",
+    "q32",
+    "q16"
+  ],
+  "example": {
+    "event_id": "r002_e01",
+    "true_class_id": 10,
+    "true_label": "肉桂+熟地黄",
+    "selection": "first reverse event, no cherry-picking",
+    "predictions": {
+      "float": 7,
+      "q32": 7,
+      "q16": 7
+    }
+  }
+}

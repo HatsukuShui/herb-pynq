@@ -1,0 +1,11 @@
+{
+  "event_id": "r002_e01",
+  "true_class_id": 10,
+  "true_label": "肉桂+熟地黄",
+  "selection": "first reverse event, no cherry-picking",
+  "predictions": {
+    "float": 7,
+    "q32": 7,
+    "q16": 7
+  }
+}

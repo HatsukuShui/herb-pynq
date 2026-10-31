@@ -1,0 +1,23 @@
+{
+  "class_id": 7,
+  "label": "甘草+熟地黄",
+  "format": "float",
+  "top3": [
+    {
+      "class_id": 7,
+      "label": "甘草+熟地黄",
+      "logit": 3.943433006295495
+    },
+    {
+      "class_id": 8,
+      "label": "川芎+肉桂",
+      "logit": 3.2322212565612265
+    },
+    {
+      "class_id": 6,
+      "label": "甘草+肉桂",
+      "logit": 2.9210100507757275
+    }
+  ],
+  "note": "Logits are not confidence probabilities; this interface requires a known response onset."
+}

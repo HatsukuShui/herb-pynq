@@ -1,0 +1,271 @@
+{
+  "model_sha256": "9dab5648c347e67d93480d6c17ebe38a7d05e346fbaf0d753ef4017334ab7056",
+  "selected": {
+    "id": "dual_h16_a1p0",
+    "view": "stable10_stats",
+    "family": "dual_neural",
+    "kind": "dual",
+    "hidden": 16,
+    "alpha": 1.0
+  },
+  "formats": {
+    "q32": {
+      "format": {
+        "input_bits": 32,
+        "input_frac": 16,
+        "weight_bits": 32,
+        "weight_frac": 20,
+        "hidden_bits": 32,
+        "hidden_frac": 20,
+        "output_frac": 16,
+        "hidden": 16,
+        "acc_frac": 36,
+        "out_acc_frac": 40,
+        "first_accumulator_bound": 19051673847321208,
+        "output_accumulator_bound": 16954814164583
+      },
+      "parameter_count": 1962,
+      "weight_bias_bytes": 8016,
+      "tanh_lut_bytes": 4100,
+      "stored_scaler_float64_bytes": 1600,
+      "training_final_float": {
+        "correct": 399,
+        "total": 400,
+        "accuracy": 0.9975,
+        "macro_f1": 0.9974996093139552
+      },
+      "training_final_quantized": {
+        "correct": 399,
+        "total": 400,
+        "accuracy": 0.9975,
+        "macro_f1": 0.9974996093139552
+      },
+      "reverse_float": {
+        "correct": 4,
+        "total": 10,
+        "accuracy": 0.4,
+        "macro_f1": 0.3333333333333333
+      },
+      "reverse_quantized": {
+        "correct": 4,
+        "total": 10,
+        "accuracy": 0.4,
+        "macro_f1": 0.3333333333333333
+      },
+      "all410_float_quant_class_agreement": 410,
+      "max_final_logit_error": 0.0001994095172195287,
+      "nested_outer_float": {
+        "correct": 239,
+        "total": 400,
+        "accuracy": 0.5975,
+        "macro_f1": 0.5955924729086053
+      },
+      "nested_outer_quantized": {
+        "correct": 239,
+        "total": 400,
+        "accuracy": 0.5975,
+        "macro_f1": 0.5955924729086053
+      },
+      "outer400_class_agreement": 400,
+      "nested_accuracy_change_percentage_points": 0.0,
+      "outer_folds": [
+        {
+          "date": "2026-05-17",
+          "candidate": "dual_h8_a0p1",
+          "float": {
+            "correct": 51,
+            "total": 150,
+            "accuracy": 0.34,
+            "macro_f1": 0.25172934421995746
+          },
+          "quantized": {
+            "correct": 51,
+            "total": 150,
+            "accuracy": 0.34,
+            "macro_f1": 0.25172934421995746
+          },
+          "class_agreement": 150,
+          "max_logit_abs_error": 0.00013117763499348456
+        },
+        {
+          "date": "2026-05-18",
+          "candidate": "dual_h16_a10p0",
+          "float": {
+            "correct": 38,
+            "total": 60,
+            "accuracy": 0.6333333333333333,
+            "macro_f1": 0.5884049284049284
+          },
+          "quantized": {
+            "correct": 38,
+            "total": 60,
+            "accuracy": 0.6333333333333333,
+            "macro_f1": 0.5884049284049284
+          },
+          "class_agreement": 60,
+          "max_logit_abs_error": 8.062861008717448e-05
+        },
+        {
+          "date": "2026-05-19",
+          "candidate": "dual_h16_a1p0",
+          "float": {
+            "correct": 150,
+            "total": 190,
+            "accuracy": 0.7894736842105263,
+            "macro_f1": 0.7784459294014401
+          },
+          "quantized": {
+            "correct": 150,
+            "total": 190,
+            "accuracy": 0.7894736842105263,
+            "macro_f1": 0.7784459294014401
+          },
+          "class_agreement": 190,
+          "max_logit_abs_error": 0.00013693004000536746
+        }
+      ],
+      "max_outer_logit_error": 0.00013693004000536746,
+      "host_cpp_integer_vectors_matched": 414,
+      "raw_event_end_to_end_matched": 410,
+      "max_cpp_feature_error": 0.0,
+      "max_cpp_float_logit_error": 5.329070518200751e-15,
+      "invalid_inputs_rejected": true,
+      "time_origin_invariant": true,
+      "testbench_stdout": "414 vectors; 0 integer mismatches"
+    },
+    "q16": {
+      "format": {
+        "input_bits": 16,
+        "input_frac": 10,
+        "weight_bits": 16,
+        "weight_frac": 12,
+        "hidden_bits": 16,
+        "hidden_frac": 14,
+        "output_frac": 12,
+        "hidden": 16,
+        "acc_frac": 22,
+        "out_acc_frac": 26,
+        "first_accumulator_bound": 1143894063,
+        "output_accumulator_bound": 1034816948
+      },
+      "parameter_count": 1962,
+      "weight_bias_bytes": 4176,
+      "tanh_lut_bytes": 2050,
+      "stored_scaler_float64_bytes": 1600,
+      "training_final_float": {
+        "correct": 399,
+        "total": 400,
+        "accuracy": 0.9975,
+        "macro_f1": 0.9974996093139552
+      },
+      "training_final_quantized": {
+        "correct": 399,
+        "total": 400,
+        "accuracy": 0.9975,
+        "macro_f1": 0.9974996093139552
+      },
+      "reverse_float": {
+        "correct": 4,
+        "total": 10,
+        "accuracy": 0.4,
+        "macro_f1": 0.3333333333333333
+      },
+      "reverse_quantized": {
+        "correct": 4,
+        "total": 10,
+        "accuracy": 0.4,
+        "macro_f1": 0.3333333333333333
+      },
+      "all410_float_quant_class_agreement": 410,
+      "max_final_logit_error": 0.005523787349639431,
+      "nested_outer_float": {
+        "correct": 239,
+        "total": 400,
+        "accuracy": 0.5975,
+        "macro_f1": 0.5955924729086053
+      },
+      "nested_outer_quantized": {
+        "correct": 239,
+        "total": 400,
+        "accuracy": 0.5975,
+        "macro_f1": 0.5955924729086053
+      },
+      "outer400_class_agreement": 400,
+      "nested_accuracy_change_percentage_points": 0.0,
+      "outer_folds": [
+        {
+          "date": "2026-05-17",
+          "candidate": "dual_h8_a0p1",
+          "float": {
+            "correct": 51,
+            "total": 150,
+            "accuracy": 0.34,
+            "macro_f1": 0.25172934421995746
+          },
+          "quantized": {
+            "correct": 51,
+            "total": 150,
+            "accuracy": 0.34,
+            "macro_f1": 0.25172934421995746
+          },
+          "class_agreement": 150,
+          "max_logit_abs_error": 0.006416020624782082
+        },
+        {
+          "date": "2026-05-18",
+          "candidate": "dual_h16_a10p0",
+          "float": {
+            "correct": 38,
+            "total": 60,
+            "accuracy": 0.6333333333333333,
+            "macro_f1": 0.5884049284049284
+          },
+          "quantized": {
+            "correct": 38,
+            "total": 60,
+            "accuracy": 0.6333333333333333,
+            "macro_f1": 0.5884049284049284
+          },
+          "class_agreement": 60,
+          "max_logit_abs_error": 0.004827950149228988
+        },
+        {
+          "date": "2026-05-19",
+          "candidate": "dual_h16_a1p0",
+          "float": {
+            "correct": 150,
+            "total": 190,
+            "accuracy": 0.7894736842105263,
+            "macro_f1": 0.7784459294014401
+          },
+          "quantized": {
+            "correct": 150,
+            "total": 190,
+            "accuracy": 0.7894736842105263,
+            "macro_f1": 0.7784459294014401
+          },
+          "class_agreement": 190,
+          "max_logit_abs_error": 0.004114138738786188
+        }
+      ],
+      "max_outer_logit_error": 0.006416020624782082,
+      "host_cpp_integer_vectors_matched": 414,
+      "raw_event_end_to_end_matched": 410,
+      "max_cpp_feature_error": 0.0,
+      "max_cpp_float_logit_error": 5.329070518200751e-15,
+      "invalid_inputs_rejected": true,
+      "time_origin_invariant": true,
+      "testbench_stdout": "414 vectors; 0 integer mismatches"
+    }
+  },
+  "deployment_default": "q32 (preselected precision-first reference); q16 supplied for resource experiments",
+  "hardware_status": {
+    "host_cpp_tested": true,
+    "hls_csim": false,
+    "hls_synthesis": false,
+    "rtl_cosimulation": false,
+    "bitstream": false,
+    "board": false
+  },
+  "caveat": "Agreement is numerical preservation, not independent recognition accuracy; outer-fold quantization uses fold-specific fitted models."
+}

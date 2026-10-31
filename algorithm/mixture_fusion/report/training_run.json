@@ -1,0 +1,9 @@
+{
+  "seconds": 53.182870626449585,
+  "warning_count": 0,
+  "python": "3.12.14",
+  "gradient_check": {
+    "parameters_checked": 40,
+    "max_absolute_error": 6.34260734211356e-10
+  }
+}

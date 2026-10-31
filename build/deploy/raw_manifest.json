@@ -1,0 +1,19 @@
+{
+  "raw_support/small/small_api.h": "c79db159da153f1dcc227839854ee224dfcf783421b3418e4ac9895e08c4e255",
+  "raw_support/small/small_parameters.h": "eba572da1e660418e13eb6ec366dd44d2f2c2983958141eef611645e8cb4c953",
+  "raw_support/small/small_ps.cpp": "ec586cbaf869604991251a134a64efce02aabb80a2cc3bf7ca26f8f9a1ea00bf",
+  "raw_support/small/small_hls.cpp": "fa7c5204615e34d67aa5824216d89932dee21db9de6abb9196bb67e79795db62",
+  "raw_support/fusion/fusion_api.h": "62e1d065092f211fae3e18dd0d3f1856d3f420842178501ba464fefbd2c34b00",
+  "raw_support/fusion/float_parameters.h": "1cf33b03a0ecf63d01605330483685e8268a81c3a649dd336aa4b45ab87af498",
+  "raw_support/fusion/fusion_ps.cpp": "d7227d024a5fe301fe3f1052267e332175c77d7cd64ca5b8135ca75a6a11c45f",
+  "raw_support/fusion/fusion_hls.cpp": "e65cd3b058c928ca582cf6b77b9082dc5fa15f9d5ce0de4889f7c9d6e4607340",
+  "raw_support/fusion/quant_parameters.h": "cf34c25cc3964a7380dc1af692474bf311afff6fd47a3a8eb4f39314ddb953e5",
+  "raw_data/small_dataset.npz": "94be82de7fd3ecd5f36de9429abd6f40092357b1f1fa26aadb8aae71054f1912",
+  "raw_data/small_events.csv": "e0313874338c0cff7b543fe6df5d797ddbf439e29d0f260d59488dd5496b3aa0",
+  "raw_data/fusion_features.npz": "dd84a7e2a44243695620c1b396c2bea0879658f68a4f649ae2de5298c0c56b44",
+  "raw_data/fusion_raw_windows.npz": "bb902407dc7e57b59527275ba5ebf90ae0a07510fd83ec70a96b382264e588b9",
+  "raw_data/fusion_events.csv": "833f58545e91d4606e0b193b77f598a9f321ce65569b318ad25a879a007b7d77",
+  "raw_event_replay.py": "0f2ed6624d66943c2a218fc53004ba82329e3c75b080434a42d33eade0f8f252",
+  "run_raw_on_pynq.sh": "34bc49aea030de6fffb5139a62190a8ac2a5487f77b90f6d4a6db2987c5def93",
+  "recognition_demo.ipynb": "5bb6994bbde85c12c36f95db5acb8a900a37a7a9ea577bdc58f18e312760be68"
+}

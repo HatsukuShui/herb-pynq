@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "raw_rows": 15687,
+  "unique_files": 20,
+  "event_features_rebuilt": 160,
+  "out_of_fold_predictions_replayed": 160,
+  "all_outer_and_inner_file_groups_disjoint": true,
+  "fold_scalers_match_training_only": true,
+  "metrics_recomputed": true,
+  "single_event_crop_and_padding_invariant": true,
+  "analytical_feature_checks": "passed",
+  "invalid_input_cases_rejected": 5,
+  "cli_prediction": {
+    "class_id": 0,
+    "herb": "干姜",
+    "start_row_1based": 11,
+    "last_used_row_1based": 30,
+    "candidate": "shape50_logistic",
+    "format": "float",
+    "scope": "one known herb exposure; no air/unknown detection"
+  },
+  "warning_count": 3
+}

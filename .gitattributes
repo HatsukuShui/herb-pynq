@@ -1,0 +1,8 @@
+# Preserve the original vendor sources and checksum-verified deployment bytes.
+* -text
+*.bit binary
+*.xsa binary
+*.npz binary
+*.joblib binary
+*.zip binary
+*.eprj2 binary

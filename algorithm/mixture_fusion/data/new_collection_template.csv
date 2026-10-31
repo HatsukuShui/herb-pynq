@@ -1,0 +1,1 @@
+﻿sample_id,date,session_id,sequence_index,class_id,mass_a_g,mass_b_g,herb_batch_a,herb_batch_b,distance_mm,temperature_c,humidity_pct,heater_setting,baseline_start,placement_time,response_onset,removal_time,cleaning_method,raw_file,operator,notes

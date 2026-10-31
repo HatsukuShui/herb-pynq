@@ -1,0 +1,233 @@
+{
+  "traditional": {
+    "candidate": {
+      "id": "sgp4_signature__svm_3",
+      "view": "sgp4_signature",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 3.0
+    },
+    "labels": [
+      "当归+甘草",
+      "当归+川芎",
+      "当归+肉桂",
+      "当归+熟地黄",
+      "甘草+川芎",
+      "甘草+肉桂",
+      "甘草+熟地黄",
+      "川芎+肉桂",
+      "川芎+熟地黄",
+      "肉桂+熟地黄"
+    ],
+    "class_encoding": "arrays 0..9; external IDs 1..10",
+    "kernel": "RBF",
+    "prediction": "scikit-learn SVC multiclass pairwise scores -> OVR decision_function; argmax matches experiment rank selection",
+    "support_vectors": 256,
+    "arrays": {
+      "mean": [
+        80
+      ],
+      "scale": [
+        80
+      ],
+      "support_vectors": [
+        256,
+        80
+      ],
+      "dual_coef": [
+        9,
+        256
+      ],
+      "intercept": [
+        45
+      ],
+      "n_support": [
+        10
+      ],
+      "gamma": []
+    }
+  },
+  "lda": {
+    "candidate": {
+      "id": "sgp8_stats__lda",
+      "view": "sgp8_stats",
+      "family": "traditional",
+      "kind": "lda"
+    },
+    "labels": [
+      "当归+甘草",
+      "当归+川芎",
+      "当归+肉桂",
+      "当归+熟地黄",
+      "甘草+川芎",
+      "甘草+肉桂",
+      "甘草+熟地黄",
+      "川芎+肉桂",
+      "川芎+熟地黄",
+      "肉桂+熟地黄"
+    ],
+    "class_encoding": "arrays 0..9; external IDs 1..10",
+    "arrays": {
+      "mean": [
+        80
+      ],
+      "scale": [
+        80
+      ],
+      "coef": [
+        10,
+        80
+      ],
+      "intercept": [
+        10
+      ]
+    }
+  },
+  "svm": {
+    "candidate": {
+      "id": "sgp4_signature__svm_3",
+      "view": "sgp4_signature",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 3.0
+    },
+    "labels": [
+      "当归+甘草",
+      "当归+川芎",
+      "当归+肉桂",
+      "当归+熟地黄",
+      "甘草+川芎",
+      "甘草+肉桂",
+      "甘草+熟地黄",
+      "川芎+肉桂",
+      "川芎+熟地黄",
+      "肉桂+熟地黄"
+    ],
+    "class_encoding": "arrays 0..9; external IDs 1..10",
+    "kernel": "RBF",
+    "prediction": "scikit-learn SVC multiclass pairwise scores -> OVR decision_function; argmax matches experiment rank selection",
+    "support_vectors": 256,
+    "arrays": {
+      "mean": [
+        80
+      ],
+      "scale": [
+        80
+      ],
+      "support_vectors": [
+        256,
+        80
+      ],
+      "dual_coef": [
+        9,
+        256
+      ],
+      "intercept": [
+        45
+      ],
+      "n_support": [
+        10
+      ],
+      "gamma": []
+    }
+  },
+  "extra_trees": {
+    "candidate": {
+      "id": "stable10_signature__trees",
+      "view": "stable10_signature",
+      "family": "traditional",
+      "kind": "trees"
+    },
+    "labels": [
+      "当归+甘草",
+      "当归+川芎",
+      "当归+肉桂",
+      "当归+熟地黄",
+      "甘草+川芎",
+      "甘草+肉桂",
+      "甘草+熟地黄",
+      "川芎+肉桂",
+      "川芎+熟地黄",
+      "肉桂+熟地黄"
+    ],
+    "class_encoding": "arrays 0..9; external IDs 1..10",
+    "tree_count": 240,
+    "node_count": 23784,
+    "tree_input_cast": "float32 after standardization",
+    "output": "average leaf class proportions",
+    "arrays": {
+      "mean": [
+        200
+      ],
+      "scale": [
+        200
+      ],
+      "roots": [
+        240
+      ],
+      "left": [
+        23784
+      ],
+      "right": [
+        23784
+      ],
+      "feature": [
+        23784
+      ],
+      "threshold": [
+        23784
+      ],
+      "values": [
+        23784,
+        10
+      ]
+    }
+  },
+  "flat_neural": {
+    "candidate": {
+      "id": "sgp4_signature__mlp16",
+      "view": "sgp4_signature",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 16
+    },
+    "labels": [
+      "当归+甘草",
+      "当归+川芎",
+      "当归+肉桂",
+      "当归+熟地黄",
+      "甘草+川芎",
+      "甘草+肉桂",
+      "甘草+熟地黄",
+      "川芎+肉桂",
+      "川芎+熟地黄",
+      "肉桂+熟地黄"
+    ],
+    "class_encoding": "arrays 0..9; external IDs 1..10",
+    "activation": "tanh",
+    "output": "linear logits; optional softmax",
+    "parameter_count": 1466,
+    "arrays": {
+      "mean": [
+        80
+      ],
+      "scale": [
+        80
+      ],
+      "w1": [
+        80,
+        16
+      ],
+      "b1": [
+        16
+      ],
+      "w2": [
+        16,
+        10
+      ],
+      "b2": [
+        10
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "input_bits": 32,
+  "input_frac": 16,
+  "weight_bits": 32,
+  "weight_frac": 20,
+  "hidden_bits": 32,
+  "hidden_frac": 20,
+  "output_frac": 16,
+  "hidden": 16,
+  "acc_frac": 36,
+  "out_acc_frac": 40,
+  "first_accumulator_bound": 19051673847321208,
+  "output_accumulator_bound": 16954814164583
+}

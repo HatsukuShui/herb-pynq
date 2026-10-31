@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "raw_feature_checks": 160,
+  "float_model_checks": 320,
+  "max_feature_abs_error": 4.440892098500626e-16,
+  "max_float_logit_abs_error": {
+    "logistic": 2.1316282072803006e-14,
+    "mlp32": 1.4210854715202004e-14
+  },
+  "integer_vectors_per_model": 164,
+  "integer_logit_values_checked": 2624,
+  "integer_logit_mismatches": 0,
+  "native_testbench": "vectors=164, integer_mismatches=0",
+  "individual_top_native_testbenches": {
+    "LR": "vectors=164, integer_mismatches=0",
+    "MLP": "vectors=164, integer_mismatches=0"
+  },
+  "final_model_conversion": {
+    "logistic": {
+      "float_q16_agreement": 160,
+      "events": 160,
+      "training_accuracy_float": 0.98125,
+      "training_accuracy_q16": 0.98125,
+      "hidden_saturated_elements": 0
+    },
+    "mlp32": {
+      "float_q16_agreement": 160,
+      "events": 160,
+      "training_accuracy_float": 1.0,
+      "training_accuracy_q16": 1.0,
+      "hidden_saturated_elements": 0
+    }
+  },
+  "model_sizes": {
+    "logistic": {
+      "parameter_count": 408,
+      "float32_weight_bias_bytes": 1632,
+      "q16_weights_int64_bias_bytes": 864,
+      "float64_scaler_bytes": 800
+    },
+    "mlp32": {
+      "parameter_count": 1896,
+      "float32_weight_bias_bytes": 7584,
+      "q16_weights_int64_bias_bytes": 4032,
+      "float64_scaler_bytes": 800
+    }
+  },
+  "int64_accumulator_bounds": {
+    "logistic": {
+      "w": 2799026341
+    },
+    "mlp32": {
+      "w1": 1291702776,
+      "w2": 1040927262
+    }
+  },
+  "source_primary_sha256": "cf2957838bfa17be3c46e82e7e73e845e4623856b1e80963c5c2db5db7997378",
+  "hls_synthesis": "not_run",
+  "rtl_cosimulation": "not_run",
+  "fpga_board_test": "not_run",
+  "native_compiler": "D:\\msys64\\ucrt64\\bin\\g++.exe",
+  "native_compile_command": [
+    "D:\\msys64\\ucrt64\\bin\\g++.exe",
+    "-std=c++11",
+    "-O2",
+    "-Wno-unknown-pragmas",
+    "-shared",
+    "-DSMALL_NATIVE_DLL",
+    "C:\\Users\\Lenovo\\Desktop\\嵌赛\\20261013-小数据集训练\\deploy\\small_ps.cpp",
+    "C:\\Users\\Lenovo\\Desktop\\嵌赛\\20261013-小数据集训练\\deploy\\small_hls.cpp",
+    "-o",
+    "C:\\Users\\Lenovo\\Desktop\\嵌赛\\20261013-小数据集训练\\build\\native\\small_native.dll"
+  ]
+}

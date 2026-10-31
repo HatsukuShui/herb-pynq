@@ -1,0 +1,8 @@
+{
+  "source": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/1.csv",
+  "frames": 112,
+  "scale": 16,
+  "baseline_frames": 16,
+  "window_frames": 32,
+  "output_words": 72
+}

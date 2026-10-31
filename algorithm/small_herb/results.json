@@ -1,0 +1,185 @@
+{
+  "nested_grouped_validation": {
+    "events": 160,
+    "correct": 152,
+    "accuracy": 0.95,
+    "macro_f1": 0.9504746027824587,
+    "confusion_matrix": [
+      [
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        19,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        17,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        19,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        19
+      ]
+    ],
+    "classification_report": {
+      "干姜": {
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1-score": 0.95,
+        "support": 20.0
+      },
+      "肉桂": {
+        "precision": 1.0,
+        "recall": 0.95,
+        "f1-score": 0.9743589743589743,
+        "support": 20.0
+      },
+      "川芎": {
+        "precision": 0.9047619047619048,
+        "recall": 0.95,
+        "f1-score": 0.926829268292683,
+        "support": 20.0
+      },
+      "熟地黄": {
+        "precision": 1.0,
+        "recall": 0.85,
+        "f1-score": 0.918918918918919,
+        "support": 20.0
+      },
+      "柴胡": {
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1-score": 0.975609756097561,
+        "support": 20.0
+      },
+      "当归": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "甘草": {
+        "precision": 1.0,
+        "recall": 0.95,
+        "f1-score": 0.9743589743589743,
+        "support": 20.0
+      },
+      "苍术": {
+        "precision": 0.8260869565217391,
+        "recall": 0.95,
+        "f1-score": 0.8837209302325582,
+        "support": 20.0
+      },
+      "accuracy": 0.95,
+      "macro avg": {
+        "precision": 0.9541537267080745,
+        "recall": 0.95,
+        "f1-score": 0.9504746027824587,
+        "support": 160.0
+      },
+      "weighted avg": {
+        "precision": 0.9541537267080745,
+        "recall": 0.95,
+        "f1-score": 0.9504746027824588,
+        "support": 160.0
+      }
+    }
+  },
+  "final_candidate": {
+    "id": "shape50_logistic",
+    "view": "shape50",
+    "family": "logistic"
+  },
+  "final_selection_cv_exploratory": {
+    "id": "shape50_logistic",
+    "view": "shape50",
+    "family": "logistic",
+    "dimension": 50,
+    "accuracy": 0.96875,
+    "macro_f1": 0.9690084733409509,
+    "correct": 155,
+    "fold_accuracy": [
+      1.0,
+      0.9375,
+      0.9375,
+      0.96875,
+      1.0
+    ]
+  },
+  "warning_count": 3,
+  "elapsed_seconds": 24.59269520000089,
+  "final_model_bytes": 7067,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}

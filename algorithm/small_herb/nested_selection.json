@@ -1,0 +1,2277 @@
+[
+  {
+    "fold": 1,
+    "chosen": {
+      "id": "shape50_svm",
+      "view": "shape50",
+      "family": "svm"
+    },
+    "ranking": [
+      {
+        "id": "shape50_svm",
+        "view": "shape50",
+        "family": "svm",
+        "dimension": 50,
+        "accuracy": 0.9453125,
+        "macro_f1": 0.946570737266997,
+        "correct": 121,
+        "fold_accuracy": [
+          0.9375,
+          0.90625,
+          1.0,
+          0.9375
+        ]
+      },
+      {
+        "id": "shape50_mlp32",
+        "view": "shape50",
+        "family": "mlp32",
+        "dimension": 50,
+        "accuracy": 0.9453125,
+        "macro_f1": 0.9457478005865103,
+        "correct": 121,
+        "fold_accuracy": [
+          0.9375,
+          0.90625,
+          0.96875,
+          0.96875
+        ]
+      },
+      {
+        "id": "shape50_logistic",
+        "view": "shape50",
+        "family": "logistic",
+        "dimension": 50,
+        "accuracy": 0.9296875,
+        "macro_f1": 0.9316063864450961,
+        "correct": 119,
+        "fold_accuracy": [
+          0.9375,
+          0.875,
+          0.96875,
+          0.9375
+        ]
+      },
+      {
+        "id": "raw100_mlp32",
+        "view": "raw100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.9140625,
+        "macro_f1": 0.9150301511188608,
+        "correct": 117,
+        "fold_accuracy": [
+          0.9375,
+          0.9375,
+          0.96875,
+          0.8125
+        ]
+      },
+      {
+        "id": "relative100_logistic",
+        "view": "relative100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.90625,
+        "macro_f1": 0.9078461021505377,
+        "correct": 116,
+        "fold_accuracy": [
+          0.90625,
+          0.84375,
+          1.0,
+          0.875
+        ]
+      },
+      {
+        "id": "relative100_mlp32",
+        "view": "relative100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.90625,
+        "macro_f1": 0.9078079178885632,
+        "correct": 116,
+        "fold_accuracy": [
+          0.90625,
+          0.84375,
+          0.96875,
+          0.90625
+        ]
+      },
+      {
+        "id": "mean5_mlp32",
+        "view": "mean5",
+        "family": "mlp32",
+        "dimension": 5,
+        "accuracy": 0.90625,
+        "macro_f1": 0.9071587854349952,
+        "correct": 116,
+        "fold_accuracy": [
+          0.84375,
+          0.84375,
+          0.96875,
+          0.96875
+        ]
+      },
+      {
+        "id": "relative100_svm",
+        "view": "relative100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.890625,
+        "macro_f1": 0.8915608004317682,
+        "correct": 114,
+        "fold_accuracy": [
+          0.84375,
+          0.875,
+          0.90625,
+          0.9375
+        ]
+      },
+      {
+        "id": "raw100_logistic",
+        "view": "raw100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.8828125,
+        "macro_f1": 0.8833857773314604,
+        "correct": 113,
+        "fold_accuracy": [
+          0.90625,
+          0.9375,
+          0.9375,
+          0.75
+        ]
+      },
+      {
+        "id": "mean5_logistic",
+        "view": "mean5",
+        "family": "logistic",
+        "dimension": 5,
+        "accuracy": 0.8828125,
+        "macro_f1": 0.8826447587832787,
+        "correct": 113,
+        "fold_accuracy": [
+          0.90625,
+          0.84375,
+          0.90625,
+          0.875
+        ]
+      },
+      {
+        "id": "mean5_svm",
+        "view": "mean5",
+        "family": "svm",
+        "dimension": 5,
+        "accuracy": 0.859375,
+        "macro_f1": 0.8610719086021505,
+        "correct": 110,
+        "fold_accuracy": [
+          0.84375,
+          0.8125,
+          0.90625,
+          0.875
+        ]
+      },
+      {
+        "id": "raw100_svm",
+        "view": "raw100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.78125,
+        "macro_f1": 0.7818946367088093,
+        "correct": 100,
+        "fold_accuracy": [
+          0.78125,
+          0.78125,
+          0.90625,
+          0.65625
+        ]
+      }
+    ],
+    "train_files": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "test_files": [
+      4,
+      5,
+      10,
+      20
+    ],
+    "inner_splits": [
+      {
+        "train_files": [
+          1,
+          3,
+          6,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          19
+        ],
+        "test_files": [
+          2,
+          7,
+          16,
+          18
+        ]
+      },
+      {
+        "train_files": [
+          2,
+          3,
+          6,
+          7,
+          9,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18
+        ],
+        "test_files": [
+          1,
+          8,
+          14,
+          19
+        ]
+      },
+      {
+        "train_files": [
+          1,
+          2,
+          3,
+          7,
+          8,
+          9,
+          12,
+          13,
+          14,
+          16,
+          18,
+          19
+        ],
+        "test_files": [
+          6,
+          11,
+          15,
+          17
+        ]
+      },
+      {
+        "train_files": [
+          1,
+          2,
+          6,
+          7,
+          8,
+          11,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "test_files": [
+          3,
+          9,
+          12,
+          13
+        ]
+      }
+    ],
+    "metrics": {
+      "events": 32,
+      "correct": 31,
+      "accuracy": 0.96875,
+      "macro_f1": 0.9682539682539683,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "classification_report": {
+        "干姜": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "肉桂": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "川芎": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 4.0
+        },
+        "熟地黄": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "柴胡": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "当归": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "甘草": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "苍术": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "accuracy": 0.96875,
+        "macro avg": {
+          "precision": 0.975,
+          "recall": 0.96875,
+          "f1-score": 0.9682539682539683,
+          "support": 32.0
+        },
+        "weighted avg": {
+          "precision": 0.975,
+          "recall": 0.96875,
+          "f1-score": 0.9682539682539683,
+          "support": 32.0
+        }
+      }
+    }
+  },
+  {
+    "fold": 2,
+    "chosen": {
+      "id": "shape50_mlp32",
+      "view": "shape50",
+      "family": "mlp32"
+    },
+    "ranking": [
+      {
+        "id": "shape50_mlp32",
+        "view": "shape50",
+        "family": "mlp32",
+        "dimension": 50,
+        "accuracy": 0.96875,
+        "macro_f1": 0.9689714687194526,
+        "correct": 124,
+        "fold_accuracy": [
+          0.9375,
+          1.0,
+          1.0,
+          0.9375
+        ]
+      },
+      {
+        "id": "shape50_svm",
+        "view": "shape50",
+        "family": "svm",
+        "dimension": 50,
+        "accuracy": 0.9609375,
+        "macro_f1": 0.9616046015180266,
+        "correct": 123,
+        "fold_accuracy": [
+          0.9375,
+          1.0,
+          0.96875,
+          0.9375
+        ]
+      },
+      {
+        "id": "shape50_logistic",
+        "view": "shape50",
+        "family": "logistic",
+        "dimension": 50,
+        "accuracy": 0.9609375,
+        "macro_f1": 0.9609298631476051,
+        "correct": 123,
+        "fold_accuracy": [
+          0.9375,
+          1.0,
+          1.0,
+          0.90625
+        ]
+      },
+      {
+        "id": "relative100_logistic",
+        "view": "relative100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.9375,
+        "macro_f1": 0.9379150853889944,
+        "correct": 120,
+        "fold_accuracy": [
+          0.9375,
+          1.0,
+          0.96875,
+          0.84375
+        ]
+      },
+      {
+        "id": "relative100_mlp32",
+        "view": "relative100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.921875,
+        "macro_f1": 0.9224871161807832,
+        "correct": 118,
+        "fold_accuracy": [
+          0.90625,
+          1.0,
+          0.9375,
+          0.84375
+        ]
+      },
+      {
+        "id": "mean5_mlp32",
+        "view": "mean5",
+        "family": "mlp32",
+        "dimension": 5,
+        "accuracy": 0.90625,
+        "macro_f1": 0.9075215808464148,
+        "correct": 116,
+        "fold_accuracy": [
+          0.9375,
+          0.96875,
+          0.875,
+          0.84375
+        ]
+      },
+      {
+        "id": "raw100_logistic",
+        "view": "raw100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.8984375,
+        "macro_f1": 0.89891560546506,
+        "correct": 115,
+        "fold_accuracy": [
+          0.90625,
+          0.96875,
+          0.90625,
+          0.8125
+        ]
+      },
+      {
+        "id": "mean5_logistic",
+        "view": "mean5",
+        "family": "logistic",
+        "dimension": 5,
+        "accuracy": 0.8984375,
+        "macro_f1": 0.8979052178055974,
+        "correct": 115,
+        "fold_accuracy": [
+          0.875,
+          0.96875,
+          0.90625,
+          0.84375
+        ]
+      },
+      {
+        "id": "raw100_mlp32",
+        "view": "raw100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.890625,
+        "macro_f1": 0.8896049974157594,
+        "correct": 114,
+        "fold_accuracy": [
+          0.78125,
+          1.0,
+          0.90625,
+          0.875
+        ]
+      },
+      {
+        "id": "mean5_svm",
+        "view": "mean5",
+        "family": "svm",
+        "dimension": 5,
+        "accuracy": 0.8671875,
+        "macro_f1": 0.8685392228739003,
+        "correct": 111,
+        "fold_accuracy": [
+          0.84375,
+          0.96875,
+          0.8125,
+          0.84375
+        ]
+      },
+      {
+        "id": "relative100_svm",
+        "view": "relative100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.84375,
+        "macro_f1": 0.845304112985217,
+        "correct": 108,
+        "fold_accuracy": [
+          0.84375,
+          0.96875,
+          0.78125,
+          0.78125
+        ]
+      },
+      {
+        "id": "raw100_svm",
+        "view": "raw100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.6875,
+        "macro_f1": 0.686064875254984,
+        "correct": 88,
+        "fold_accuracy": [
+          0.59375,
+          0.78125,
+          0.71875,
+          0.65625
+        ]
+      }
+    ],
+    "train_files": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20
+    ],
+    "test_files": [
+      2,
+      12,
+      13,
+      19
+    ],
+    "inner_splits": [
+      {
+        "train_files": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          14,
+          15,
+          17,
+          18,
+          20
+        ],
+        "test_files": [
+          1,
+          9,
+          11,
+          16
+        ]
+      },
+      {
+        "train_files": [
+          1,
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          15,
+          16,
+          18,
+          20
+        ],
+        "test_files": [
+          6,
+          7,
+          14,
+          17
+        ]
+      },
+      {
+        "train_files": [
+          1,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          14,
+          15,
+          16,
+          17
+        ],
+        "test_files": [
+          4,
+          5,
+          18,
+          20
+        ]
+      },
+      {
+        "train_files": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          9,
+          11,
+          14,
+          16,
+          17,
+          18,
+          20
+        ],
+        "test_files": [
+          3,
+          8,
+          10,
+          15
+        ]
+      }
+    ],
+    "metrics": {
+      "events": 32,
+      "correct": 29,
+      "accuracy": 0.90625,
+      "macro_f1": 0.9052579365079365,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "classification_report": {
+        "干姜": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1-score": 0.75,
+          "support": 4.0
+        },
+        "肉桂": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 4.0
+        },
+        "川芎": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "熟地黄": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 4.0
+        },
+        "柴胡": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "当归": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "甘草": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "苍术": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "accuracy": 0.90625,
+        "macro avg": {
+          "precision": 0.91875,
+          "recall": 0.90625,
+          "f1-score": 0.9052579365079365,
+          "support": 32.0
+        },
+        "weighted avg": {
+          "precision": 0.91875,
+          "recall": 0.90625,
+          "f1-score": 0.9052579365079365,
+          "support": 32.0
+        }
+      }
+    }
+  },
+  {
+    "fold": 3,
+    "chosen": {
+      "id": "shape50_svm",
+      "view": "shape50",
+      "family": "svm"
+    },
+    "ranking": [
+      {
+        "id": "shape50_svm",
+        "view": "shape50",
+        "family": "svm",
+        "dimension": 50,
+        "accuracy": 0.96875,
+        "macro_f1": 0.9689499058421023,
+        "correct": 124,
+        "fold_accuracy": [
+          1.0,
+          0.9375,
+          0.96875,
+          0.96875
+        ]
+      },
+      {
+        "id": "shape50_logistic",
+        "view": "shape50",
+        "family": "logistic",
+        "dimension": 50,
+        "accuracy": 0.9609375,
+        "macro_f1": 0.9611450426944972,
+        "correct": 123,
+        "fold_accuracy": [
+          1.0,
+          0.90625,
+          0.96875,
+          0.96875
+        ]
+      },
+      {
+        "id": "shape50_mlp32",
+        "view": "shape50",
+        "family": "mlp32",
+        "dimension": 50,
+        "accuracy": 0.9609375,
+        "macro_f1": 0.9611374058421023,
+        "correct": 123,
+        "fold_accuracy": [
+          1.0,
+          0.90625,
+          0.96875,
+          0.96875
+        ]
+      },
+      {
+        "id": "mean5_logistic",
+        "view": "mean5",
+        "family": "logistic",
+        "dimension": 5,
+        "accuracy": 0.9296875,
+        "macro_f1": 0.9290977553044679,
+        "correct": 119,
+        "fold_accuracy": [
+          1.0,
+          0.8125,
+          0.9375,
+          0.96875
+        ]
+      },
+      {
+        "id": "relative100_logistic",
+        "view": "relative100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.921875,
+        "macro_f1": 0.9228961562630917,
+        "correct": 118,
+        "fold_accuracy": [
+          0.96875,
+          0.875,
+          0.90625,
+          0.9375
+        ]
+      },
+      {
+        "id": "relative100_mlp32",
+        "view": "relative100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.921875,
+        "macro_f1": 0.9222734640043702,
+        "correct": 118,
+        "fold_accuracy": [
+          0.96875,
+          0.875,
+          0.90625,
+          0.9375
+        ]
+      },
+      {
+        "id": "raw100_mlp32",
+        "view": "raw100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.90625,
+        "macro_f1": 0.9072628648233487,
+        "correct": 116,
+        "fold_accuracy": [
+          0.96875,
+          0.875,
+          0.84375,
+          0.9375
+        ]
+      },
+      {
+        "id": "mean5_mlp32",
+        "view": "mean5",
+        "family": "mlp32",
+        "dimension": 5,
+        "accuracy": 0.90625,
+        "macro_f1": 0.9070488147605084,
+        "correct": 116,
+        "fold_accuracy": [
+          0.96875,
+          0.84375,
+          0.9375,
+          0.875
+        ]
+      },
+      {
+        "id": "relative100_svm",
+        "view": "relative100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.8984375,
+        "macro_f1": 0.8998426808406648,
+        "correct": 115,
+        "fold_accuracy": [
+          0.9375,
+          0.84375,
+          0.875,
+          0.9375
+        ]
+      },
+      {
+        "id": "raw100_logistic",
+        "view": "raw100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.875,
+        "macro_f1": 0.8748874109761207,
+        "correct": 112,
+        "fold_accuracy": [
+          0.90625,
+          0.84375,
+          0.8125,
+          0.9375
+        ]
+      },
+      {
+        "id": "mean5_svm",
+        "view": "mean5",
+        "family": "svm",
+        "dimension": 5,
+        "accuracy": 0.8671875,
+        "macro_f1": 0.8671677169157008,
+        "correct": 111,
+        "fold_accuracy": [
+          0.96875,
+          0.78125,
+          0.84375,
+          0.875
+        ]
+      },
+      {
+        "id": "raw100_svm",
+        "view": "raw100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.7578125,
+        "macro_f1": 0.7597750871440387,
+        "correct": 97,
+        "fold_accuracy": [
+          0.875,
+          0.75,
+          0.71875,
+          0.6875
+        ]
+      }
+    ],
+    "train_files": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      19,
+      20
+    ],
+    "test_files": [
+      1,
+      3,
+      15,
+      17
+    ],
+    "inner_splits": [
+      {
+        "train_files": [
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          16,
+          18,
+          20
+        ],
+        "test_files": [
+          5,
+          11,
+          14,
+          19
+        ]
+      },
+      {
+        "train_files": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          16,
+          18,
+          19
+        ],
+        "test_files": [
+          2,
+          9,
+          13,
+          20
+        ]
+      },
+      {
+        "train_files": [
+          2,
+          5,
+          7,
+          8,
+          9,
+          11,
+          13,
+          14,
+          16,
+          18,
+          19,
+          20
+        ],
+        "test_files": [
+          4,
+          6,
+          10,
+          12
+        ]
+      },
+      {
+        "train_files": [
+          2,
+          4,
+          5,
+          6,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          19,
+          20
+        ],
+        "test_files": [
+          7,
+          8,
+          16,
+          18
+        ]
+      }
+    ],
+    "metrics": {
+      "events": 32,
+      "correct": 29,
+      "accuracy": 0.90625,
+      "macro_f1": 0.9027777777777777,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "classification_report": {
+        "干姜": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "肉桂": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "川芎": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "熟地黄": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "柴胡": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "当归": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "甘草": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "苍术": {
+          "precision": 0.6,
+          "recall": 0.75,
+          "f1-score": 0.6666666666666666,
+          "support": 4.0
+        },
+        "accuracy": 0.90625,
+        "macro avg": {
+          "precision": 0.925,
+          "recall": 0.90625,
+          "f1-score": 0.9027777777777777,
+          "support": 32.0
+        },
+        "weighted avg": {
+          "precision": 0.925,
+          "recall": 0.90625,
+          "f1-score": 0.9027777777777777,
+          "support": 32.0
+        }
+      }
+    }
+  },
+  {
+    "fold": 4,
+    "chosen": {
+      "id": "shape50_logistic",
+      "view": "shape50",
+      "family": "logistic"
+    },
+    "ranking": [
+      {
+        "id": "shape50_logistic",
+        "view": "shape50",
+        "family": "logistic",
+        "dimension": 50,
+        "accuracy": 0.953125,
+        "macro_f1": 0.9533325426944972,
+        "correct": 122,
+        "fold_accuracy": [
+          1.0,
+          0.9375,
+          0.875,
+          1.0
+        ]
+      },
+      {
+        "id": "relative100_logistic",
+        "view": "relative100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.9453125,
+        "macro_f1": 0.945931787283289,
+        "correct": 121,
+        "fold_accuracy": [
+          1.0,
+          0.9375,
+          0.84375,
+          1.0
+        ]
+      },
+      {
+        "id": "shape50_svm",
+        "view": "shape50",
+        "family": "svm",
+        "dimension": 50,
+        "accuracy": 0.9375,
+        "macro_f1": 0.9378964099544156,
+        "correct": 120,
+        "fold_accuracy": [
+          1.0,
+          0.9375,
+          0.875,
+          0.9375
+        ]
+      },
+      {
+        "id": "shape50_mlp32",
+        "view": "shape50",
+        "family": "mlp32",
+        "dimension": 50,
+        "accuracy": 0.9375,
+        "macro_f1": 0.9377075426944972,
+        "correct": 120,
+        "fold_accuracy": [
+          1.0,
+          0.90625,
+          0.84375,
+          1.0
+        ]
+      },
+      {
+        "id": "mean5_mlp32",
+        "view": "mean5",
+        "family": "mlp32",
+        "dimension": 5,
+        "accuracy": 0.90625,
+        "macro_f1": 0.9074596774193548,
+        "correct": 116,
+        "fold_accuracy": [
+          0.9375,
+          0.96875,
+          0.78125,
+          0.9375
+        ]
+      },
+      {
+        "id": "relative100_mlp32",
+        "view": "relative100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.90625,
+        "macro_f1": 0.9067518503002374,
+        "correct": 116,
+        "fold_accuracy": [
+          0.96875,
+          0.875,
+          0.8125,
+          0.96875
+        ]
+      },
+      {
+        "id": "mean5_svm",
+        "view": "mean5",
+        "family": "svm",
+        "dimension": 5,
+        "accuracy": 0.8671875,
+        "macro_f1": 0.8710257549679825,
+        "correct": 111,
+        "fold_accuracy": [
+          0.96875,
+          0.9375,
+          0.75,
+          0.8125
+        ]
+      },
+      {
+        "id": "raw100_logistic",
+        "view": "raw100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.8671875,
+        "macro_f1": 0.8703248853768426,
+        "correct": 111,
+        "fold_accuracy": [
+          1.0,
+          0.875,
+          0.6875,
+          0.90625
+        ]
+      },
+      {
+        "id": "raw100_mlp32",
+        "view": "raw100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.8671875,
+        "macro_f1": 0.8677412167212927,
+        "correct": 111,
+        "fold_accuracy": [
+          0.9375,
+          0.875,
+          0.75,
+          0.90625
+        ]
+      },
+      {
+        "id": "mean5_logistic",
+        "view": "mean5",
+        "family": "logistic",
+        "dimension": 5,
+        "accuracy": 0.8671875,
+        "macro_f1": 0.8665470939024479,
+        "correct": 111,
+        "fold_accuracy": [
+          0.84375,
+          0.875,
+          0.78125,
+          0.96875
+        ]
+      },
+      {
+        "id": "relative100_svm",
+        "view": "relative100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.8515625,
+        "macro_f1": 0.8535908479960899,
+        "correct": 109,
+        "fold_accuracy": [
+          0.9375,
+          0.875,
+          0.75,
+          0.84375
+        ]
+      },
+      {
+        "id": "raw100_svm",
+        "view": "raw100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.7578125,
+        "macro_f1": 0.7573290425106771,
+        "correct": 97,
+        "fold_accuracy": [
+          0.8125,
+          0.78125,
+          0.71875,
+          0.71875
+        ]
+      }
+    ],
+    "train_files": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20
+    ],
+    "test_files": [
+      8,
+      9,
+      11,
+      18
+    ],
+    "inner_splits": [
+      {
+        "train_files": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          14,
+          15,
+          17,
+          19,
+          20
+        ],
+        "test_files": [
+          7,
+          12,
+          13,
+          16
+        ]
+      },
+      {
+        "train_files": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          10,
+          12,
+          13,
+          16,
+          19,
+          20
+        ],
+        "test_files": [
+          3,
+          14,
+          15,
+          17
+        ]
+      },
+      {
+        "train_files": [
+          3,
+          4,
+          5,
+          7,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19
+        ],
+        "test_files": [
+          1,
+          2,
+          6,
+          20
+        ]
+      },
+      {
+        "train_files": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20
+        ],
+        "test_files": [
+          4,
+          5,
+          10,
+          19
+        ]
+      }
+    ],
+    "metrics": {
+      "events": 32,
+      "correct": 31,
+      "accuracy": 0.96875,
+      "macro_f1": 0.9682539682539683,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "classification_report": {
+        "干姜": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "肉桂": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "川芎": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "熟地黄": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "柴胡": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 4.0
+        },
+        "当归": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "甘草": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 4.0
+        },
+        "苍术": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "accuracy": 0.96875,
+        "macro avg": {
+          "precision": 0.975,
+          "recall": 0.96875,
+          "f1-score": 0.9682539682539683,
+          "support": 32.0
+        },
+        "weighted avg": {
+          "precision": 0.975,
+          "recall": 0.96875,
+          "f1-score": 0.9682539682539683,
+          "support": 32.0
+        }
+      }
+    }
+  },
+  {
+    "fold": 5,
+    "chosen": {
+      "id": "shape50_logistic",
+      "view": "shape50",
+      "family": "logistic"
+    },
+    "ranking": [
+      {
+        "id": "shape50_logistic",
+        "view": "shape50",
+        "family": "logistic",
+        "dimension": 50,
+        "accuracy": 0.953125,
+        "macro_f1": 0.9533235581622679,
+        "correct": 122,
+        "fold_accuracy": [
+          1.0,
+          0.90625,
+          0.90625,
+          1.0
+        ]
+      },
+      {
+        "id": "shape50_svm",
+        "view": "shape50",
+        "family": "svm",
+        "dimension": 50,
+        "accuracy": 0.9453125,
+        "macro_f1": 0.9461795073601288,
+        "correct": 121,
+        "fold_accuracy": [
+          0.96875,
+          0.90625,
+          0.90625,
+          1.0
+        ]
+      },
+      {
+        "id": "shape50_mlp32",
+        "view": "shape50",
+        "family": "mlp32",
+        "dimension": 50,
+        "accuracy": 0.9375,
+        "macro_f1": 0.9379353005865103,
+        "correct": 120,
+        "fold_accuracy": [
+          0.96875,
+          0.90625,
+          0.875,
+          1.0
+        ]
+      },
+      {
+        "id": "relative100_logistic",
+        "view": "relative100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.90625,
+        "macro_f1": 0.9068229821254015,
+        "correct": 116,
+        "fold_accuracy": [
+          0.9375,
+          0.875,
+          0.84375,
+          0.96875
+        ]
+      },
+      {
+        "id": "mean5_mlp32",
+        "view": "mean5",
+        "family": "mlp32",
+        "dimension": 5,
+        "accuracy": 0.890625,
+        "macro_f1": 0.8915185117302054,
+        "correct": 114,
+        "fold_accuracy": [
+          1.0,
+          0.875,
+          0.71875,
+          0.96875
+        ]
+      },
+      {
+        "id": "raw100_logistic",
+        "view": "raw100",
+        "family": "logistic",
+        "dimension": 100,
+        "accuracy": 0.890625,
+        "macro_f1": 0.8909453884192974,
+        "correct": 114,
+        "fold_accuracy": [
+          0.875,
+          0.96875,
+          0.8125,
+          0.90625
+        ]
+      },
+      {
+        "id": "raw100_mlp32",
+        "view": "raw100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.890625,
+        "macro_f1": 0.8907949873497787,
+        "correct": 114,
+        "fold_accuracy": [
+          0.78125,
+          0.9375,
+          0.875,
+          0.96875
+        ]
+      },
+      {
+        "id": "relative100_mlp32",
+        "view": "relative100",
+        "family": "mlp32",
+        "dimension": 100,
+        "accuracy": 0.8828125,
+        "macro_f1": 0.8840577561669829,
+        "correct": 113,
+        "fold_accuracy": [
+          0.9375,
+          0.8125,
+          0.8125,
+          0.96875
+        ]
+      },
+      {
+        "id": "mean5_logistic",
+        "view": "mean5",
+        "family": "logistic",
+        "dimension": 5,
+        "accuracy": 0.875,
+        "macro_f1": 0.874903416278535,
+        "correct": 112,
+        "fold_accuracy": [
+          0.90625,
+          0.8125,
+          0.78125,
+          1.0
+        ]
+      },
+      {
+        "id": "relative100_svm",
+        "view": "relative100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.859375,
+        "macro_f1": 0.8602080714983941,
+        "correct": 110,
+        "fold_accuracy": [
+          0.90625,
+          0.75,
+          0.84375,
+          0.9375
+        ]
+      },
+      {
+        "id": "mean5_svm",
+        "view": "mean5",
+        "family": "svm",
+        "dimension": 5,
+        "accuracy": 0.84375,
+        "macro_f1": 0.8449917521994135,
+        "correct": 108,
+        "fold_accuracy": [
+          0.90625,
+          0.78125,
+          0.71875,
+          0.96875
+        ]
+      },
+      {
+        "id": "raw100_svm",
+        "view": "raw100",
+        "family": "svm",
+        "dimension": 100,
+        "accuracy": 0.75,
+        "macro_f1": 0.7535115201031782,
+        "correct": 96,
+        "fold_accuracy": [
+          0.6875,
+          0.875,
+          0.59375,
+          0.84375
+        ]
+      }
+    ],
+    "train_files": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      17,
+      18,
+      19,
+      20
+    ],
+    "test_files": [
+      6,
+      7,
+      14,
+      16
+    ],
+    "inner_splits": [
+      {
+        "train_files": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          10,
+          12,
+          13,
+          15,
+          17,
+          18,
+          19
+        ],
+        "test_files": [
+          3,
+          9,
+          11,
+          20
+        ]
+      },
+      {
+        "train_files": [
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          11,
+          13,
+          17,
+          18,
+          19,
+          20
+        ],
+        "test_files": [
+          1,
+          10,
+          12,
+          15
+        ]
+      },
+      {
+        "train_files": [
+          1,
+          3,
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          17,
+          19,
+          20
+        ],
+        "test_files": [
+          2,
+          4,
+          8,
+          18
+        ]
+      },
+      {
+        "train_files": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          9,
+          10,
+          11,
+          12,
+          15,
+          18,
+          20
+        ],
+        "test_files": [
+          5,
+          13,
+          17,
+          19
+        ]
+      }
+    ],
+    "metrics": {
+      "events": 32,
+      "correct": 32,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "classification_report": {
+        "干姜": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "肉桂": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "川芎": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "熟地黄": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "柴胡": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "当归": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "甘草": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "苍术": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 32.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 32.0
+        }
+      }
+    }
+  }
+]

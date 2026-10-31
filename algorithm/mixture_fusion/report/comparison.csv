@@ -1,0 +1,14 @@
+﻿experiment,nested_accuracy,nested_macro_f1,fixed_date_exploratory,grouped_file_exploratory,reverse_diagnostic,selected
+traditional,0.495,0.47465872410921284,0.64,0.935,0.6,sgp4_signature__svm_3
+lda,0.495,0.49424120026449836,0.5425,0.8925,0.5,sgp8_stats__lda
+svm,0.5375,0.5197446657803163,0.64,0.935,0.6,sgp4_signature__svm_3
+extra_trees,0.61,0.6129386393519889,0.6375,0.945,0.4,stable10_signature__trees
+flat_neural,0.6075,0.6175852901977549,0.615,0.9225,0.5,sgp4_signature__mlp16
+dual_neural,0.5975,0.5955924729086053,0.59,0.9575,0.4,dual_h16_a1p0
+late_fusion,0.58,0.5786600220830219,0.58,0.9325,0.4,late_mos25
+all_light_neural,0.6075,0.6175852901977549,0.615,0.9225,0.5,sgp4_signature__mlp16
+mos_only,0.255,0.2169402619439384,0.2425,0.7875,0.6,mos6_stats__mlp32
+sgp4_only,0.575,0.573423848694856,0.6025,0.945,0.4,sgp4_fixed_stats__mlp32
+sgp8_only,0.55,0.5595301661421401,0.5525,0.905,0.2,sgp8_stats__mlp32
+early_fusion,0.53,0.5422542779121661,0.53,0.9575,0.5,stable10_stats__mlp16
+early_all14,0.4825,0.4849942103741123,0.515,0.95,0.4,all14_stats__mlp32

@@ -1,0 +1,296 @@
+{
+  "seed": 20261013,
+  "candidates": [
+    {
+      "id": "raw100_logistic",
+      "view": "raw100",
+      "family": "logistic"
+    },
+    {
+      "id": "raw100_svm",
+      "view": "raw100",
+      "family": "svm"
+    },
+    {
+      "id": "raw100_mlp32",
+      "view": "raw100",
+      "family": "mlp32"
+    },
+    {
+      "id": "relative100_logistic",
+      "view": "relative100",
+      "family": "logistic"
+    },
+    {
+      "id": "relative100_svm",
+      "view": "relative100",
+      "family": "svm"
+    },
+    {
+      "id": "relative100_mlp32",
+      "view": "relative100",
+      "family": "mlp32"
+    },
+    {
+      "id": "mean5_logistic",
+      "view": "mean5",
+      "family": "logistic"
+    },
+    {
+      "id": "mean5_svm",
+      "view": "mean5",
+      "family": "svm"
+    },
+    {
+      "id": "mean5_mlp32",
+      "view": "mean5",
+      "family": "mlp32"
+    },
+    {
+      "id": "shape50_logistic",
+      "view": "shape50",
+      "family": "logistic"
+    },
+    {
+      "id": "shape50_svm",
+      "view": "shape50",
+      "family": "svm"
+    },
+    {
+      "id": "shape50_mlp32",
+      "view": "shape50",
+      "family": "mlp32"
+    }
+  ],
+  "classifier_parameters": {
+    "logistic": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 3000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 20261013,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "svm": {
+      "C": 3.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "rbf",
+      "max_iter": -1,
+      "probability": "deprecated",
+      "random_state": null,
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    },
+    "mlp32": {
+      "activation": "relu",
+      "alpha": 1.0,
+      "batch_size": "auto",
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 30000,
+      "max_iter": 2000,
+      "momentum": 0.9,
+      "n_iter_no_change": 10,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 20261013,
+      "shuffle": true,
+      "solver": "lbfgs",
+      "tol": 1e-06,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    }
+  },
+  "selection": "accuracy, macro F1, lower dimension, then declaration order",
+  "evaluation": "5 outer file-group folds; 4 inner file-group folds; scaler fitted inside each fit",
+  "outer_split": [
+    {
+      "fold": 1,
+      "train_files": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "test_files": [
+        4,
+        5,
+        10,
+        20
+      ]
+    },
+    {
+      "fold": 2,
+      "train_files": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20
+      ],
+      "test_files": [
+        2,
+        12,
+        13,
+        19
+      ]
+    },
+    {
+      "fold": 3,
+      "train_files": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20
+      ],
+      "test_files": [
+        1,
+        3,
+        15,
+        17
+      ]
+    },
+    {
+      "fold": 4,
+      "train_files": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "test_files": [
+        8,
+        9,
+        11,
+        18
+      ]
+    },
+    {
+      "fold": 5,
+      "train_files": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        17,
+        18,
+        19,
+        20
+      ],
+      "test_files": [
+        6,
+        7,
+        14,
+        16
+      ]
+    }
+  ],
+  "baseline_points": 10,
+  "response_points": 20,
+  "labels": [
+    "干姜",
+    "肉桂",
+    "川芎",
+    "熟地黄",
+    "柴胡",
+    "当归",
+    "甘草",
+    "苍术"
+  ],
+  "class_id_base": 0,
+  "label_source": "existing confirmed eight-herb order in 20261010 label protocol; single-herb intent confirmed 2026-10-13",
+  "annotation_index": "one-based inclusive; physical insertion timestamps unverified",
+  "file_independence": "unknown, user confirmed uncertainty on 2026-10-13",
+  "sample_interval_s": 1,
+  "sample_interval_source": "existing project documentation; TXT has no timestamps",
+  "fixed_order": true,
+  "outside_intervals_used_as_air": false,
+  "source_archive": "20260928-原始数据（小数据集）-余正心-v1.zip",
+  "source_sha256": "e4b931fbf2d41dc858bdf046b5022fd6c2053b7acf331fdc42e3870f305ecd00",
+  "annotation_sha256": "e0b86bdce62498ab6b6619cfee4258af8814a0810f41f8276124d40e16a5b8f6",
+  "metadata_used_as_model_features": [],
+  "pretrained_models_loaded": false,
+  "limits": [
+    "No independent new-date or randomized-order test",
+    "No air, mixture, unknown-herb or automatic onset classification",
+    "Unknown independence between recordings; local references may contain previous-herb residue"
+  ]
+}

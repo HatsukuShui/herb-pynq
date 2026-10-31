@@ -1,0 +1,2131 @@
+{
+  "traditional": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "sgp4_signature__svm_3",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__svm_3",
+          "mean_date_accuracy": 0.8469298245614035,
+          "pooled_accuracy": 0.88
+        },
+        {
+          "candidate": "sgp4_fixed_stats__lda",
+          "mean_date_accuracy": 0.8320175438596491,
+          "pooled_accuracy": 0.84
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_3",
+          "mean_date_accuracy": 0.8210526315789474,
+          "pooled_accuracy": 0.832
+        },
+        {
+          "candidate": "sgp8_stats__lda",
+          "mean_date_accuracy": 0.8105263157894738,
+          "pooled_accuracy": 0.816
+        },
+        {
+          "candidate": "sgp4_signature__lda",
+          "mean_date_accuracy": 0.8065789473684211,
+          "pooled_accuracy": 0.836
+        },
+        {
+          "candidate": "sgp4_signature__svm_03",
+          "mean_date_accuracy": 0.8057017543859649,
+          "pooled_accuracy": 0.852
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_03",
+          "mean_date_accuracy": 0.7640350877192983,
+          "pooled_accuracy": 0.78
+        },
+        {
+          "candidate": "sgp4_fixed_stats__trees",
+          "mean_date_accuracy": 0.750877192982456,
+          "pooled_accuracy": 0.76
+        },
+        {
+          "candidate": "sgp4_signature__trees",
+          "mean_date_accuracy": 0.7473684210526316,
+          "pooled_accuracy": 0.772
+        },
+        {
+          "candidate": "sgp8_stats__trees",
+          "mean_date_accuracy": 0.7236842105263157,
+          "pooled_accuracy": 0.736
+        },
+        {
+          "candidate": "sgp8_stats__svm_3",
+          "mean_date_accuracy": 0.5947368421052631,
+          "pooled_accuracy": 0.54
+        },
+        {
+          "candidate": "sgp8_stats__svm_03",
+          "mean_date_accuracy": 0.49078947368421055,
+          "pooled_accuracy": 0.46
+        },
+        {
+          "candidate": "stable10_signature__trees",
+          "mean_date_accuracy": 0.48464912280701755,
+          "pooled_accuracy": 0.624
+        },
+        {
+          "candidate": "stable10_stats__trees",
+          "mean_date_accuracy": 0.41315789473684206,
+          "pooled_accuracy": 0.524
+        },
+        {
+          "candidate": "all14_stats__trees",
+          "mean_date_accuracy": 0.3973684210526316,
+          "pooled_accuracy": 0.5
+        },
+        {
+          "candidate": "stable10_stats__lda",
+          "mean_date_accuracy": 0.306140350877193,
+          "pooled_accuracy": 0.396
+        },
+        {
+          "candidate": "all14_stats__lda",
+          "mean_date_accuracy": 0.29780701754385963,
+          "pooled_accuracy": 0.392
+        },
+        {
+          "candidate": "stable10_signature__lda",
+          "mean_date_accuracy": 0.23508771929824562,
+          "pooled_accuracy": 0.288
+        },
+        {
+          "candidate": "all14_stats__svm_3",
+          "mean_date_accuracy": 0.22412280701754386,
+          "pooled_accuracy": 0.228
+        },
+        {
+          "candidate": "stable10_signature__svm_03",
+          "mean_date_accuracy": 0.19824561403508772,
+          "pooled_accuracy": 0.232
+        },
+        {
+          "candidate": "mos6_stats__lda",
+          "mean_date_accuracy": 0.1956140350877193,
+          "pooled_accuracy": 0.228
+        },
+        {
+          "candidate": "stable10_stats__svm_3",
+          "mean_date_accuracy": 0.19035087719298244,
+          "pooled_accuracy": 0.22
+        },
+        {
+          "candidate": "stable10_signature__svm_3",
+          "mean_date_accuracy": 0.17675438596491228,
+          "pooled_accuracy": 0.208
+        },
+        {
+          "candidate": "all14_stats__svm_03",
+          "mean_date_accuracy": 0.16973684210526316,
+          "pooled_accuracy": 0.18
+        },
+        {
+          "candidate": "stable10_stats__svm_03",
+          "mean_date_accuracy": 0.15745614035087718,
+          "pooled_accuracy": 0.144
+        },
+        {
+          "candidate": "mos6_stats__trees",
+          "mean_date_accuracy": 0.1557017543859649,
+          "pooled_accuracy": 0.176
+        },
+        {
+          "candidate": "mos6_stats__svm_3",
+          "mean_date_accuracy": 0.06359649122807018,
+          "pooled_accuracy": 0.036
+        },
+        {
+          "candidate": "mos6_stats__svm_03",
+          "mean_date_accuracy": 0.058333333333333334,
+          "pooled_accuracy": 0.028
+        }
+      ],
+      "test": {
+        "correct": 44,
+        "total": 150,
+        "accuracy": 0.29333333333333333,
+        "macro_f1": 0.1766726965085378
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "sgp4_signature__trees",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__trees",
+          "mean_date_accuracy": 0.3543859649122807,
+          "pooled_accuracy": 0.35294117647058826
+        },
+        {
+          "candidate": "sgp4_signature__svm_3",
+          "mean_date_accuracy": 0.32842105263157895,
+          "pooled_accuracy": 0.32941176470588235
+        },
+        {
+          "candidate": "sgp8_stats__trees",
+          "mean_date_accuracy": 0.3277192982456141,
+          "pooled_accuracy": 0.32941176470588235
+        },
+        {
+          "candidate": "sgp4_fixed_stats__trees",
+          "mean_date_accuracy": 0.32105263157894737,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_3",
+          "mean_date_accuracy": 0.31894736842105265,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "sgp8_stats__lda",
+          "mean_date_accuracy": 0.3180701754385965,
+          "pooled_accuracy": 0.3264705882352941
+        },
+        {
+          "candidate": "stable10_signature__lda",
+          "mean_date_accuracy": 0.3135087719298245,
+          "pooled_accuracy": 0.3323529411764706
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_03",
+          "mean_date_accuracy": 0.3078947368421052,
+          "pooled_accuracy": 0.3088235294117647
+        },
+        {
+          "candidate": "sgp4_signature__svm_03",
+          "mean_date_accuracy": 0.30666666666666664,
+          "pooled_accuracy": 0.3058823529411765
+        },
+        {
+          "candidate": "sgp4_fixed_stats__lda",
+          "mean_date_accuracy": 0.30350877192982456,
+          "pooled_accuracy": 0.31176470588235294
+        },
+        {
+          "candidate": "sgp8_stats__svm_3",
+          "mean_date_accuracy": 0.29333333333333333,
+          "pooled_accuracy": 0.29411764705882354
+        },
+        {
+          "candidate": "sgp4_signature__lda",
+          "mean_date_accuracy": 0.28087719298245617,
+          "pooled_accuracy": 0.27941176470588236
+        },
+        {
+          "candidate": "stable10_signature__trees",
+          "mean_date_accuracy": 0.2789473684210526,
+          "pooled_accuracy": 0.28823529411764703
+        },
+        {
+          "candidate": "sgp8_stats__svm_03",
+          "mean_date_accuracy": 0.272280701754386,
+          "pooled_accuracy": 0.27058823529411763
+        },
+        {
+          "candidate": "all14_stats__trees",
+          "mean_date_accuracy": 0.25719298245614036,
+          "pooled_accuracy": 0.2647058823529412
+        },
+        {
+          "candidate": "all14_stats__lda",
+          "mean_date_accuracy": 0.23947368421052634,
+          "pooled_accuracy": 0.25588235294117645
+        },
+        {
+          "candidate": "stable10_stats__lda",
+          "mean_date_accuracy": 0.23947368421052634,
+          "pooled_accuracy": 0.25588235294117645
+        },
+        {
+          "candidate": "stable10_stats__trees",
+          "mean_date_accuracy": 0.23614035087719298,
+          "pooled_accuracy": 0.2411764705882353
+        },
+        {
+          "candidate": "mos6_stats__lda",
+          "mean_date_accuracy": 0.22035087719298246,
+          "pooled_accuracy": 0.2235294117647059
+        },
+        {
+          "candidate": "all14_stats__svm_3",
+          "mean_date_accuracy": 0.19,
+          "pooled_accuracy": 0.17941176470588235
+        },
+        {
+          "candidate": "all14_stats__svm_03",
+          "mean_date_accuracy": 0.18666666666666665,
+          "pooled_accuracy": 0.17647058823529413
+        },
+        {
+          "candidate": "stable10_stats__svm_3",
+          "mean_date_accuracy": 0.1766666666666667,
+          "pooled_accuracy": 0.1676470588235294
+        },
+        {
+          "candidate": "stable10_stats__svm_03",
+          "mean_date_accuracy": 0.16999999999999998,
+          "pooled_accuracy": 0.16176470588235295
+        },
+        {
+          "candidate": "mos6_stats__trees",
+          "mean_date_accuracy": 0.15789473684210525,
+          "pooled_accuracy": 0.16470588235294117
+        },
+        {
+          "candidate": "mos6_stats__svm_03",
+          "mean_date_accuracy": 0.13666666666666666,
+          "pooled_accuracy": 0.1323529411764706
+        },
+        {
+          "candidate": "mos6_stats__svm_3",
+          "mean_date_accuracy": 0.11333333333333334,
+          "pooled_accuracy": 0.11176470588235295
+        },
+        {
+          "candidate": "stable10_signature__svm_03",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        },
+        {
+          "candidate": "stable10_signature__svm_3",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        }
+      ],
+      "test": {
+        "correct": 41,
+        "total": 60,
+        "accuracy": 0.6833333333333333,
+        "macro_f1": 0.6735431235431235
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "sgp4_signature__lda",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__lda",
+          "mean_date_accuracy": 0.2833333333333333,
+          "pooled_accuracy": 0.2761904761904762
+        },
+        {
+          "candidate": "sgp4_fixed_stats__lda",
+          "mean_date_accuracy": 0.25166666666666665,
+          "pooled_accuracy": 0.22380952380952382
+        },
+        {
+          "candidate": "stable10_signature__trees",
+          "mean_date_accuracy": 0.24166666666666664,
+          "pooled_accuracy": 0.26666666666666666
+        },
+        {
+          "candidate": "sgp8_stats__lda",
+          "mean_date_accuracy": 0.22999999999999998,
+          "pooled_accuracy": 0.2
+        },
+        {
+          "candidate": "sgp4_signature__svm_03",
+          "mean_date_accuracy": 0.22333333333333333,
+          "pooled_accuracy": 0.23333333333333334
+        },
+        {
+          "candidate": "sgp4_signature__trees",
+          "mean_date_accuracy": 0.21500000000000002,
+          "pooled_accuracy": 0.21428571428571427
+        },
+        {
+          "candidate": "sgp4_signature__svm_3",
+          "mean_date_accuracy": 0.205,
+          "pooled_accuracy": 0.21428571428571427
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_03",
+          "mean_date_accuracy": 0.18833333333333335,
+          "pooled_accuracy": 0.1619047619047619
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_3",
+          "mean_date_accuracy": 0.18666666666666668,
+          "pooled_accuracy": 0.18095238095238095
+        },
+        {
+          "candidate": "sgp4_fixed_stats__trees",
+          "mean_date_accuracy": 0.18666666666666668,
+          "pooled_accuracy": 0.18095238095238095
+        },
+        {
+          "candidate": "all14_stats__trees",
+          "mean_date_accuracy": 0.18333333333333335,
+          "pooled_accuracy": 0.19047619047619047
+        },
+        {
+          "candidate": "stable10_stats__trees",
+          "mean_date_accuracy": 0.18,
+          "pooled_accuracy": 0.18571428571428572
+        },
+        {
+          "candidate": "sgp8_stats__trees",
+          "mean_date_accuracy": 0.17166666666666666,
+          "pooled_accuracy": 0.16666666666666666
+        },
+        {
+          "candidate": "sgp8_stats__svm_3",
+          "mean_date_accuracy": 0.165,
+          "pooled_accuracy": 0.14285714285714285
+        },
+        {
+          "candidate": "mos6_stats__trees",
+          "mean_date_accuracy": 0.15333333333333332,
+          "pooled_accuracy": 0.14761904761904762
+        },
+        {
+          "candidate": "stable10_stats__lda",
+          "mean_date_accuracy": 0.15000000000000002,
+          "pooled_accuracy": 0.17142857142857143
+        },
+        {
+          "candidate": "all14_stats__lda",
+          "mean_date_accuracy": 0.14666666666666667,
+          "pooled_accuracy": 0.16666666666666666
+        },
+        {
+          "candidate": "sgp8_stats__svm_03",
+          "mean_date_accuracy": 0.135,
+          "pooled_accuracy": 0.12857142857142856
+        },
+        {
+          "candidate": "stable10_signature__lda",
+          "mean_date_accuracy": 0.11,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "all14_stats__svm_03",
+          "mean_date_accuracy": 0.10333333333333333,
+          "pooled_accuracy": 0.10476190476190476
+        },
+        {
+          "candidate": "mos6_stats__lda",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        },
+        {
+          "candidate": "mos6_stats__svm_3",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        },
+        {
+          "candidate": "stable10_signature__svm_03",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        },
+        {
+          "candidate": "stable10_signature__svm_3",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        },
+        {
+          "candidate": "mos6_stats__svm_03",
+          "mean_date_accuracy": 0.09333333333333334,
+          "pooled_accuracy": 0.09047619047619047
+        },
+        {
+          "candidate": "stable10_stats__svm_3",
+          "mean_date_accuracy": 0.07333333333333333,
+          "pooled_accuracy": 0.06190476190476191
+        },
+        {
+          "candidate": "all14_stats__svm_3",
+          "mean_date_accuracy": 0.060000000000000005,
+          "pooled_accuracy": 0.04285714285714286
+        },
+        {
+          "candidate": "stable10_stats__svm_03",
+          "mean_date_accuracy": 0.05333333333333334,
+          "pooled_accuracy": 0.03333333333333333
+        }
+      ],
+      "test": {
+        "correct": 113,
+        "total": 190,
+        "accuracy": 0.5947368421052631,
+        "macro_f1": 0.5831651401004134
+      }
+    }
+  ],
+  "lda": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "sgp4_fixed_stats__lda",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_fixed_stats__lda",
+          "mean_date_accuracy": 0.8320175438596491,
+          "pooled_accuracy": 0.84
+        },
+        {
+          "candidate": "sgp8_stats__lda",
+          "mean_date_accuracy": 0.8105263157894738,
+          "pooled_accuracy": 0.816
+        },
+        {
+          "candidate": "sgp4_signature__lda",
+          "mean_date_accuracy": 0.8065789473684211,
+          "pooled_accuracy": 0.836
+        },
+        {
+          "candidate": "stable10_stats__lda",
+          "mean_date_accuracy": 0.306140350877193,
+          "pooled_accuracy": 0.396
+        },
+        {
+          "candidate": "all14_stats__lda",
+          "mean_date_accuracy": 0.29780701754385963,
+          "pooled_accuracy": 0.392
+        },
+        {
+          "candidate": "stable10_signature__lda",
+          "mean_date_accuracy": 0.23508771929824562,
+          "pooled_accuracy": 0.288
+        },
+        {
+          "candidate": "mos6_stats__lda",
+          "mean_date_accuracy": 0.1956140350877193,
+          "pooled_accuracy": 0.228
+        }
+      ],
+      "test": {
+        "correct": 37,
+        "total": 150,
+        "accuracy": 0.24666666666666667,
+        "macro_f1": 0.1552527499691015
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "sgp8_stats__lda",
+      "inner_ranking": [
+        {
+          "candidate": "sgp8_stats__lda",
+          "mean_date_accuracy": 0.3180701754385965,
+          "pooled_accuracy": 0.3264705882352941
+        },
+        {
+          "candidate": "stable10_signature__lda",
+          "mean_date_accuracy": 0.3135087719298245,
+          "pooled_accuracy": 0.3323529411764706
+        },
+        {
+          "candidate": "sgp4_fixed_stats__lda",
+          "mean_date_accuracy": 0.30350877192982456,
+          "pooled_accuracy": 0.31176470588235294
+        },
+        {
+          "candidate": "sgp4_signature__lda",
+          "mean_date_accuracy": 0.28087719298245617,
+          "pooled_accuracy": 0.27941176470588236
+        },
+        {
+          "candidate": "all14_stats__lda",
+          "mean_date_accuracy": 0.23947368421052634,
+          "pooled_accuracy": 0.25588235294117645
+        },
+        {
+          "candidate": "stable10_stats__lda",
+          "mean_date_accuracy": 0.23947368421052634,
+          "pooled_accuracy": 0.25588235294117645
+        },
+        {
+          "candidate": "mos6_stats__lda",
+          "mean_date_accuracy": 0.22035087719298246,
+          "pooled_accuracy": 0.2235294117647059
+        }
+      ],
+      "test": {
+        "correct": 48,
+        "total": 60,
+        "accuracy": 0.8,
+        "macro_f1": 0.8024825174825174
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "sgp4_signature__lda",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__lda",
+          "mean_date_accuracy": 0.2833333333333333,
+          "pooled_accuracy": 0.2761904761904762
+        },
+        {
+          "candidate": "sgp4_fixed_stats__lda",
+          "mean_date_accuracy": 0.25166666666666665,
+          "pooled_accuracy": 0.22380952380952382
+        },
+        {
+          "candidate": "sgp8_stats__lda",
+          "mean_date_accuracy": 0.22999999999999998,
+          "pooled_accuracy": 0.2
+        },
+        {
+          "candidate": "stable10_stats__lda",
+          "mean_date_accuracy": 0.15000000000000002,
+          "pooled_accuracy": 0.17142857142857143
+        },
+        {
+          "candidate": "all14_stats__lda",
+          "mean_date_accuracy": 0.14666666666666667,
+          "pooled_accuracy": 0.16666666666666666
+        },
+        {
+          "candidate": "stable10_signature__lda",
+          "mean_date_accuracy": 0.11,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "mos6_stats__lda",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        }
+      ],
+      "test": {
+        "correct": 113,
+        "total": 190,
+        "accuracy": 0.5947368421052631,
+        "macro_f1": 0.5831651401004134
+      }
+    }
+  ],
+  "svm": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "sgp4_signature__svm_3",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__svm_3",
+          "mean_date_accuracy": 0.8469298245614035,
+          "pooled_accuracy": 0.88
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_3",
+          "mean_date_accuracy": 0.8210526315789474,
+          "pooled_accuracy": 0.832
+        },
+        {
+          "candidate": "sgp4_signature__svm_03",
+          "mean_date_accuracy": 0.8057017543859649,
+          "pooled_accuracy": 0.852
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_03",
+          "mean_date_accuracy": 0.7640350877192983,
+          "pooled_accuracy": 0.78
+        },
+        {
+          "candidate": "sgp8_stats__svm_3",
+          "mean_date_accuracy": 0.5947368421052631,
+          "pooled_accuracy": 0.54
+        },
+        {
+          "candidate": "sgp8_stats__svm_03",
+          "mean_date_accuracy": 0.49078947368421055,
+          "pooled_accuracy": 0.46
+        },
+        {
+          "candidate": "all14_stats__svm_3",
+          "mean_date_accuracy": 0.22412280701754386,
+          "pooled_accuracy": 0.228
+        },
+        {
+          "candidate": "stable10_signature__svm_03",
+          "mean_date_accuracy": 0.19824561403508772,
+          "pooled_accuracy": 0.232
+        },
+        {
+          "candidate": "stable10_stats__svm_3",
+          "mean_date_accuracy": 0.19035087719298244,
+          "pooled_accuracy": 0.22
+        },
+        {
+          "candidate": "stable10_signature__svm_3",
+          "mean_date_accuracy": 0.17675438596491228,
+          "pooled_accuracy": 0.208
+        },
+        {
+          "candidate": "all14_stats__svm_03",
+          "mean_date_accuracy": 0.16973684210526316,
+          "pooled_accuracy": 0.18
+        },
+        {
+          "candidate": "stable10_stats__svm_03",
+          "mean_date_accuracy": 0.15745614035087718,
+          "pooled_accuracy": 0.144
+        },
+        {
+          "candidate": "mos6_stats__svm_3",
+          "mean_date_accuracy": 0.06359649122807018,
+          "pooled_accuracy": 0.036
+        },
+        {
+          "candidate": "mos6_stats__svm_03",
+          "mean_date_accuracy": 0.058333333333333334,
+          "pooled_accuracy": 0.028
+        }
+      ],
+      "test": {
+        "correct": 44,
+        "total": 150,
+        "accuracy": 0.29333333333333333,
+        "macro_f1": 0.1766726965085378
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "sgp4_signature__svm_3",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__svm_3",
+          "mean_date_accuracy": 0.32842105263157895,
+          "pooled_accuracy": 0.32941176470588235
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_3",
+          "mean_date_accuracy": 0.31894736842105265,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_03",
+          "mean_date_accuracy": 0.3078947368421052,
+          "pooled_accuracy": 0.3088235294117647
+        },
+        {
+          "candidate": "sgp4_signature__svm_03",
+          "mean_date_accuracy": 0.30666666666666664,
+          "pooled_accuracy": 0.3058823529411765
+        },
+        {
+          "candidate": "sgp8_stats__svm_3",
+          "mean_date_accuracy": 0.29333333333333333,
+          "pooled_accuracy": 0.29411764705882354
+        },
+        {
+          "candidate": "sgp8_stats__svm_03",
+          "mean_date_accuracy": 0.272280701754386,
+          "pooled_accuracy": 0.27058823529411763
+        },
+        {
+          "candidate": "all14_stats__svm_3",
+          "mean_date_accuracy": 0.19,
+          "pooled_accuracy": 0.17941176470588235
+        },
+        {
+          "candidate": "all14_stats__svm_03",
+          "mean_date_accuracy": 0.18666666666666665,
+          "pooled_accuracy": 0.17647058823529413
+        },
+        {
+          "candidate": "stable10_stats__svm_3",
+          "mean_date_accuracy": 0.1766666666666667,
+          "pooled_accuracy": 0.1676470588235294
+        },
+        {
+          "candidate": "stable10_stats__svm_03",
+          "mean_date_accuracy": 0.16999999999999998,
+          "pooled_accuracy": 0.16176470588235295
+        },
+        {
+          "candidate": "mos6_stats__svm_03",
+          "mean_date_accuracy": 0.13666666666666666,
+          "pooled_accuracy": 0.1323529411764706
+        },
+        {
+          "candidate": "mos6_stats__svm_3",
+          "mean_date_accuracy": 0.11333333333333334,
+          "pooled_accuracy": 0.11176470588235295
+        },
+        {
+          "candidate": "stable10_signature__svm_03",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        },
+        {
+          "candidate": "stable10_signature__svm_3",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        }
+      ],
+      "test": {
+        "correct": 42,
+        "total": 60,
+        "accuracy": 0.7,
+        "macro_f1": 0.6943939393939393
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "sgp4_signature__svm_03",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__svm_03",
+          "mean_date_accuracy": 0.22333333333333333,
+          "pooled_accuracy": 0.23333333333333334
+        },
+        {
+          "candidate": "sgp4_signature__svm_3",
+          "mean_date_accuracy": 0.205,
+          "pooled_accuracy": 0.21428571428571427
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_03",
+          "mean_date_accuracy": 0.18833333333333335,
+          "pooled_accuracy": 0.1619047619047619
+        },
+        {
+          "candidate": "sgp4_fixed_stats__svm_3",
+          "mean_date_accuracy": 0.18666666666666668,
+          "pooled_accuracy": 0.18095238095238095
+        },
+        {
+          "candidate": "sgp8_stats__svm_3",
+          "mean_date_accuracy": 0.165,
+          "pooled_accuracy": 0.14285714285714285
+        },
+        {
+          "candidate": "sgp8_stats__svm_03",
+          "mean_date_accuracy": 0.135,
+          "pooled_accuracy": 0.12857142857142856
+        },
+        {
+          "candidate": "all14_stats__svm_03",
+          "mean_date_accuracy": 0.10333333333333333,
+          "pooled_accuracy": 0.10476190476190476
+        },
+        {
+          "candidate": "mos6_stats__svm_3",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        },
+        {
+          "candidate": "stable10_signature__svm_03",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        },
+        {
+          "candidate": "stable10_signature__svm_3",
+          "mean_date_accuracy": 0.1,
+          "pooled_accuracy": 0.1
+        },
+        {
+          "candidate": "mos6_stats__svm_03",
+          "mean_date_accuracy": 0.09333333333333334,
+          "pooled_accuracy": 0.09047619047619047
+        },
+        {
+          "candidate": "stable10_stats__svm_3",
+          "mean_date_accuracy": 0.07333333333333333,
+          "pooled_accuracy": 0.06190476190476191
+        },
+        {
+          "candidate": "all14_stats__svm_3",
+          "mean_date_accuracy": 0.060000000000000005,
+          "pooled_accuracy": 0.04285714285714286
+        },
+        {
+          "candidate": "stable10_stats__svm_03",
+          "mean_date_accuracy": 0.05333333333333334,
+          "pooled_accuracy": 0.03333333333333333
+        }
+      ],
+      "test": {
+        "correct": 129,
+        "total": 190,
+        "accuracy": 0.6789473684210526,
+        "macro_f1": 0.6346665778011452
+      }
+    }
+  ],
+  "extra_trees": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "sgp4_fixed_stats__trees",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_fixed_stats__trees",
+          "mean_date_accuracy": 0.750877192982456,
+          "pooled_accuracy": 0.76
+        },
+        {
+          "candidate": "sgp4_signature__trees",
+          "mean_date_accuracy": 0.7473684210526316,
+          "pooled_accuracy": 0.772
+        },
+        {
+          "candidate": "sgp8_stats__trees",
+          "mean_date_accuracy": 0.7236842105263157,
+          "pooled_accuracy": 0.736
+        },
+        {
+          "candidate": "stable10_signature__trees",
+          "mean_date_accuracy": 0.48464912280701755,
+          "pooled_accuracy": 0.624
+        },
+        {
+          "candidate": "stable10_stats__trees",
+          "mean_date_accuracy": 0.41315789473684206,
+          "pooled_accuracy": 0.524
+        },
+        {
+          "candidate": "all14_stats__trees",
+          "mean_date_accuracy": 0.3973684210526316,
+          "pooled_accuracy": 0.5
+        },
+        {
+          "candidate": "mos6_stats__trees",
+          "mean_date_accuracy": 0.1557017543859649,
+          "pooled_accuracy": 0.176
+        }
+      ],
+      "test": {
+        "correct": 36,
+        "total": 150,
+        "accuracy": 0.24,
+        "macro_f1": 0.14393091444637834
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "sgp4_signature__trees",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__trees",
+          "mean_date_accuracy": 0.3543859649122807,
+          "pooled_accuracy": 0.35294117647058826
+        },
+        {
+          "candidate": "sgp8_stats__trees",
+          "mean_date_accuracy": 0.3277192982456141,
+          "pooled_accuracy": 0.32941176470588235
+        },
+        {
+          "candidate": "sgp4_fixed_stats__trees",
+          "mean_date_accuracy": 0.32105263157894737,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "stable10_signature__trees",
+          "mean_date_accuracy": 0.2789473684210526,
+          "pooled_accuracy": 0.28823529411764703
+        },
+        {
+          "candidate": "all14_stats__trees",
+          "mean_date_accuracy": 0.25719298245614036,
+          "pooled_accuracy": 0.2647058823529412
+        },
+        {
+          "candidate": "stable10_stats__trees",
+          "mean_date_accuracy": 0.23614035087719298,
+          "pooled_accuracy": 0.2411764705882353
+        },
+        {
+          "candidate": "mos6_stats__trees",
+          "mean_date_accuracy": 0.15789473684210525,
+          "pooled_accuracy": 0.16470588235294117
+        }
+      ],
+      "test": {
+        "correct": 41,
+        "total": 60,
+        "accuracy": 0.6833333333333333,
+        "macro_f1": 0.6735431235431235
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "stable10_signature__trees",
+      "inner_ranking": [
+        {
+          "candidate": "stable10_signature__trees",
+          "mean_date_accuracy": 0.24166666666666664,
+          "pooled_accuracy": 0.26666666666666666
+        },
+        {
+          "candidate": "sgp4_signature__trees",
+          "mean_date_accuracy": 0.21500000000000002,
+          "pooled_accuracy": 0.21428571428571427
+        },
+        {
+          "candidate": "sgp4_fixed_stats__trees",
+          "mean_date_accuracy": 0.18666666666666668,
+          "pooled_accuracy": 0.18095238095238095
+        },
+        {
+          "candidate": "all14_stats__trees",
+          "mean_date_accuracy": 0.18333333333333335,
+          "pooled_accuracy": 0.19047619047619047
+        },
+        {
+          "candidate": "stable10_stats__trees",
+          "mean_date_accuracy": 0.18,
+          "pooled_accuracy": 0.18571428571428572
+        },
+        {
+          "candidate": "sgp8_stats__trees",
+          "mean_date_accuracy": 0.17166666666666666,
+          "pooled_accuracy": 0.16666666666666666
+        },
+        {
+          "candidate": "mos6_stats__trees",
+          "mean_date_accuracy": 0.15333333333333332,
+          "pooled_accuracy": 0.14761904761904762
+        }
+      ],
+      "test": {
+        "correct": 167,
+        "total": 190,
+        "accuracy": 0.8789473684210526,
+        "macro_f1": 0.8778077403394187
+      }
+    }
+  ],
+  "flat_neural": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "sgp4_fixed_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_fixed_stats__mlp16",
+          "mean_date_accuracy": 0.861842105263158,
+          "pooled_accuracy": 0.868
+        },
+        {
+          "candidate": "sgp4_signature__mlp16",
+          "mean_date_accuracy": 0.8574561403508771,
+          "pooled_accuracy": 0.896
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp32",
+          "mean_date_accuracy": 0.850438596491228,
+          "pooled_accuracy": 0.868
+        },
+        {
+          "candidate": "sgp4_signature__mlp32",
+          "mean_date_accuracy": 0.8359649122807018,
+          "pooled_accuracy": 0.872
+        },
+        {
+          "candidate": "sgp8_stats__mlp16",
+          "mean_date_accuracy": 0.8078947368421052,
+          "pooled_accuracy": 0.812
+        },
+        {
+          "candidate": "sgp8_stats__mlp32",
+          "mean_date_accuracy": 0.7916666666666667,
+          "pooled_accuracy": 0.796
+        },
+        {
+          "candidate": "stable10_signature__mlp16",
+          "mean_date_accuracy": 0.3394736842105263,
+          "pooled_accuracy": 0.412
+        },
+        {
+          "candidate": "stable10_signature__mlp32",
+          "mean_date_accuracy": 0.3307017543859649,
+          "pooled_accuracy": 0.416
+        },
+        {
+          "candidate": "all14_stats__mlp16",
+          "mean_date_accuracy": 0.23114035087719298,
+          "pooled_accuracy": 0.256
+        },
+        {
+          "candidate": "stable10_stats__mlp16",
+          "mean_date_accuracy": 0.22587719298245612,
+          "pooled_accuracy": 0.248
+        },
+        {
+          "candidate": "stable10_stats__mlp32",
+          "mean_date_accuracy": 0.19605263157894737,
+          "pooled_accuracy": 0.22
+        },
+        {
+          "candidate": "mos6_stats__mlp16",
+          "mean_date_accuracy": 0.16096491228070176,
+          "pooled_accuracy": 0.184
+        },
+        {
+          "candidate": "mos6_stats__mlp32",
+          "mean_date_accuracy": 0.15833333333333333,
+          "pooled_accuracy": 0.18
+        },
+        {
+          "candidate": "all14_stats__mlp32",
+          "mean_date_accuracy": 0.15657894736842104,
+          "pooled_accuracy": 0.16
+        }
+      ],
+      "test": {
+        "correct": 46,
+        "total": 150,
+        "accuracy": 0.30666666666666664,
+        "macro_f1": 0.2463003663003663
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "sgp4_signature__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__mlp16",
+          "mean_date_accuracy": 0.3357894736842105,
+          "pooled_accuracy": 0.3352941176470588
+        },
+        {
+          "candidate": "sgp4_signature__mlp32",
+          "mean_date_accuracy": 0.3249122807017544,
+          "pooled_accuracy": 0.32941176470588235
+        },
+        {
+          "candidate": "sgp8_stats__mlp32",
+          "mean_date_accuracy": 0.3187719298245614,
+          "pooled_accuracy": 0.3264705882352941
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp32",
+          "mean_date_accuracy": 0.3126315789473684,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp16",
+          "mean_date_accuracy": 0.3119298245614035,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "sgp8_stats__mlp16",
+          "mean_date_accuracy": 0.28964912280701754,
+          "pooled_accuracy": 0.29705882352941176
+        },
+        {
+          "candidate": "all14_stats__mlp16",
+          "mean_date_accuracy": 0.24684210526315792,
+          "pooled_accuracy": 0.25
+        },
+        {
+          "candidate": "stable10_signature__mlp32",
+          "mean_date_accuracy": 0.21789473684210525,
+          "pooled_accuracy": 0.20588235294117646
+        },
+        {
+          "candidate": "all14_stats__mlp32",
+          "mean_date_accuracy": 0.21280701754385964,
+          "pooled_accuracy": 0.22058823529411764
+        },
+        {
+          "candidate": "stable10_signature__mlp16",
+          "mean_date_accuracy": 0.21157894736842103,
+          "pooled_accuracy": 0.21764705882352942
+        },
+        {
+          "candidate": "mos6_stats__mlp16",
+          "mean_date_accuracy": 0.2094736842105263,
+          "pooled_accuracy": 0.21764705882352942
+        },
+        {
+          "candidate": "stable10_stats__mlp32",
+          "mean_date_accuracy": 0.20666666666666667,
+          "pooled_accuracy": 0.20588235294117646
+        },
+        {
+          "candidate": "mos6_stats__mlp32",
+          "mean_date_accuracy": 0.19105263157894736,
+          "pooled_accuracy": 0.19705882352941176
+        },
+        {
+          "candidate": "stable10_stats__mlp16",
+          "mean_date_accuracy": 0.18350877192982457,
+          "pooled_accuracy": 0.18235294117647058
+        }
+      ],
+      "test": {
+        "correct": 47,
+        "total": 60,
+        "accuracy": 0.7833333333333333,
+        "macro_f1": 0.7805161505161504
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "sgp4_signature__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__mlp16",
+          "mean_date_accuracy": 0.31,
+          "pooled_accuracy": 0.3142857142857143
+        },
+        {
+          "candidate": "sgp4_signature__mlp32",
+          "mean_date_accuracy": 0.2816666666666667,
+          "pooled_accuracy": 0.28095238095238095
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp16",
+          "mean_date_accuracy": 0.27166666666666667,
+          "pooled_accuracy": 0.2523809523809524
+        },
+        {
+          "candidate": "sgp8_stats__mlp16",
+          "mean_date_accuracy": 0.2633333333333333,
+          "pooled_accuracy": 0.23333333333333334
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp32",
+          "mean_date_accuracy": 0.25666666666666665,
+          "pooled_accuracy": 0.23809523809523808
+        },
+        {
+          "candidate": "sgp8_stats__mlp32",
+          "mean_date_accuracy": 0.24666666666666665,
+          "pooled_accuracy": 0.20952380952380953
+        },
+        {
+          "candidate": "mos6_stats__mlp32",
+          "mean_date_accuracy": 0.13333333333333333,
+          "pooled_accuracy": 0.11904761904761904
+        },
+        {
+          "candidate": "all14_stats__mlp16",
+          "mean_date_accuracy": 0.13,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "stable10_signature__mlp32",
+          "mean_date_accuracy": 0.11666666666666667,
+          "pooled_accuracy": 0.12380952380952381
+        },
+        {
+          "candidate": "stable10_stats__mlp32",
+          "mean_date_accuracy": 0.11499999999999999,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "stable10_signature__mlp16",
+          "mean_date_accuracy": 0.11,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "stable10_stats__mlp16",
+          "mean_date_accuracy": 0.10666666666666666,
+          "pooled_accuracy": 0.10952380952380952
+        },
+        {
+          "candidate": "all14_stats__mlp32",
+          "mean_date_accuracy": 0.10333333333333333,
+          "pooled_accuracy": 0.10476190476190476
+        },
+        {
+          "candidate": "mos6_stats__mlp16",
+          "mean_date_accuracy": 0.09833333333333333,
+          "pooled_accuracy": 0.10476190476190476
+        }
+      ],
+      "test": {
+        "correct": 150,
+        "total": 190,
+        "accuracy": 0.7894736842105263,
+        "macro_f1": 0.7933369516415082
+      }
+    }
+  ],
+  "dual_neural": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "dual_h8_a0p1",
+      "inner_ranking": [
+        {
+          "candidate": "dual_h8_a0p1",
+          "mean_date_accuracy": 0.6105263157894737,
+          "pooled_accuracy": 0.668
+        },
+        {
+          "candidate": "dual_h16_a0p1",
+          "mean_date_accuracy": 0.5149122807017543,
+          "pooled_accuracy": 0.592
+        },
+        {
+          "candidate": "dual_h8_a1p0",
+          "mean_date_accuracy": 0.4986842105263158,
+          "pooled_accuracy": 0.576
+        },
+        {
+          "candidate": "dual_h16_a1p0",
+          "mean_date_accuracy": 0.481578947368421,
+          "pooled_accuracy": 0.576
+        },
+        {
+          "candidate": "dual_h8_a10p0",
+          "mean_date_accuracy": 0.3855263157894737,
+          "pooled_accuracy": 0.352
+        },
+        {
+          "candidate": "dual_h16_a10p0",
+          "mean_date_accuracy": 0.3574561403508772,
+          "pooled_accuracy": 0.344
+        }
+      ],
+      "test": {
+        "correct": 51,
+        "total": 150,
+        "accuracy": 0.34,
+        "macro_f1": 0.25172934421995746
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "dual_h16_a10p0",
+      "inner_ranking": [
+        {
+          "candidate": "dual_h16_a10p0",
+          "mean_date_accuracy": 0.32614035087719295,
+          "pooled_accuracy": 0.34411764705882353
+        },
+        {
+          "candidate": "dual_h8_a10p0",
+          "mean_date_accuracy": 0.31894736842105265,
+          "pooled_accuracy": 0.3352941176470588
+        },
+        {
+          "candidate": "dual_h16_a1p0",
+          "mean_date_accuracy": 0.2824561403508772,
+          "pooled_accuracy": 0.3
+        },
+        {
+          "candidate": "dual_h8_a1p0",
+          "mean_date_accuracy": 0.27543859649122804,
+          "pooled_accuracy": 0.28823529411764703
+        },
+        {
+          "candidate": "dual_h8_a0p1",
+          "mean_date_accuracy": 0.2578947368421053,
+          "pooled_accuracy": 0.2647058823529412
+        },
+        {
+          "candidate": "dual_h16_a0p1",
+          "mean_date_accuracy": 0.22385964912280704,
+          "pooled_accuracy": 0.23529411764705882
+        }
+      ],
+      "test": {
+        "correct": 38,
+        "total": 60,
+        "accuracy": 0.6333333333333333,
+        "macro_f1": 0.5884049284049284
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "dual_h16_a1p0",
+      "inner_ranking": [
+        {
+          "candidate": "dual_h16_a1p0",
+          "mean_date_accuracy": 0.28833333333333333,
+          "pooled_accuracy": 0.2619047619047619
+        },
+        {
+          "candidate": "dual_h8_a0p1",
+          "mean_date_accuracy": 0.2833333333333333,
+          "pooled_accuracy": 0.2619047619047619
+        },
+        {
+          "candidate": "dual_h16_a0p1",
+          "mean_date_accuracy": 0.27,
+          "pooled_accuracy": 0.2571428571428571
+        },
+        {
+          "candidate": "dual_h8_a1p0",
+          "mean_date_accuracy": 0.24166666666666667,
+          "pooled_accuracy": 0.23809523809523808
+        },
+        {
+          "candidate": "dual_h8_a10p0",
+          "mean_date_accuracy": 0.23833333333333334,
+          "pooled_accuracy": 0.23333333333333334
+        },
+        {
+          "candidate": "dual_h16_a10p0",
+          "mean_date_accuracy": 0.21666666666666667,
+          "pooled_accuracy": 0.22380952380952382
+        }
+      ],
+      "test": {
+        "correct": 150,
+        "total": 190,
+        "accuracy": 0.7894736842105263,
+        "macro_f1": 0.7784459294014401
+      }
+    }
+  ],
+  "late_fusion": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "late_mos25",
+      "inner_ranking": [
+        {
+          "candidate": "late_mos25",
+          "mean_date_accuracy": 0.861842105263158,
+          "pooled_accuracy": 0.868
+        },
+        {
+          "candidate": "late_mos50",
+          "mean_date_accuracy": 0.4894736842105263,
+          "pooled_accuracy": 0.484
+        },
+        {
+          "candidate": "late_mos75",
+          "mean_date_accuracy": 0.16096491228070176,
+          "pooled_accuracy": 0.184
+        }
+      ],
+      "test": {
+        "correct": 46,
+        "total": 150,
+        "accuracy": 0.30666666666666664,
+        "macro_f1": 0.2463003663003663
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "late_mos25",
+      "inner_ranking": [
+        {
+          "candidate": "late_mos25",
+          "mean_date_accuracy": 0.3119298245614035,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "late_mos50",
+          "mean_date_accuracy": 0.252280701754386,
+          "pooled_accuracy": 0.2647058823529412
+        },
+        {
+          "candidate": "late_mos75",
+          "mean_date_accuracy": 0.2094736842105263,
+          "pooled_accuracy": 0.21764705882352942
+        }
+      ],
+      "test": {
+        "correct": 48,
+        "total": 60,
+        "accuracy": 0.8,
+        "macro_f1": 0.8008446455505279
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "late_mos25",
+      "inner_ranking": [
+        {
+          "candidate": "late_mos25",
+          "mean_date_accuracy": 0.27166666666666667,
+          "pooled_accuracy": 0.2523809523809524
+        },
+        {
+          "candidate": "late_mos50",
+          "mean_date_accuracy": 0.19833333333333333,
+          "pooled_accuracy": 0.1761904761904762
+        },
+        {
+          "candidate": "late_mos75",
+          "mean_date_accuracy": 0.09833333333333333,
+          "pooled_accuracy": 0.10476190476190476
+        }
+      ],
+      "test": {
+        "correct": 138,
+        "total": 190,
+        "accuracy": 0.7263157894736842,
+        "macro_f1": 0.730580256403066
+      }
+    }
+  ],
+  "all_light_neural": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "sgp4_fixed_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_fixed_stats__mlp16",
+          "mean_date_accuracy": 0.861842105263158,
+          "pooled_accuracy": 0.868
+        },
+        {
+          "candidate": "sgp4_signature__mlp16",
+          "mean_date_accuracy": 0.8574561403508771,
+          "pooled_accuracy": 0.896
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp32",
+          "mean_date_accuracy": 0.850438596491228,
+          "pooled_accuracy": 0.868
+        },
+        {
+          "candidate": "sgp4_signature__mlp32",
+          "mean_date_accuracy": 0.8359649122807018,
+          "pooled_accuracy": 0.872
+        },
+        {
+          "candidate": "sgp8_stats__mlp16",
+          "mean_date_accuracy": 0.8078947368421052,
+          "pooled_accuracy": 0.812
+        },
+        {
+          "candidate": "sgp8_stats__mlp32",
+          "mean_date_accuracy": 0.7916666666666667,
+          "pooled_accuracy": 0.796
+        },
+        {
+          "candidate": "dual_h8_a0p1",
+          "mean_date_accuracy": 0.6105263157894737,
+          "pooled_accuracy": 0.668
+        },
+        {
+          "candidate": "dual_h16_a0p1",
+          "mean_date_accuracy": 0.5149122807017543,
+          "pooled_accuracy": 0.592
+        },
+        {
+          "candidate": "dual_h8_a1p0",
+          "mean_date_accuracy": 0.4986842105263158,
+          "pooled_accuracy": 0.576
+        },
+        {
+          "candidate": "dual_h16_a1p0",
+          "mean_date_accuracy": 0.481578947368421,
+          "pooled_accuracy": 0.576
+        },
+        {
+          "candidate": "dual_h8_a10p0",
+          "mean_date_accuracy": 0.3855263157894737,
+          "pooled_accuracy": 0.352
+        },
+        {
+          "candidate": "dual_h16_a10p0",
+          "mean_date_accuracy": 0.3574561403508772,
+          "pooled_accuracy": 0.344
+        },
+        {
+          "candidate": "stable10_signature__mlp16",
+          "mean_date_accuracy": 0.3394736842105263,
+          "pooled_accuracy": 0.412
+        },
+        {
+          "candidate": "stable10_signature__mlp32",
+          "mean_date_accuracy": 0.3307017543859649,
+          "pooled_accuracy": 0.416
+        },
+        {
+          "candidate": "all14_stats__mlp16",
+          "mean_date_accuracy": 0.23114035087719298,
+          "pooled_accuracy": 0.256
+        },
+        {
+          "candidate": "stable10_stats__mlp16",
+          "mean_date_accuracy": 0.22587719298245612,
+          "pooled_accuracy": 0.248
+        },
+        {
+          "candidate": "stable10_stats__mlp32",
+          "mean_date_accuracy": 0.19605263157894737,
+          "pooled_accuracy": 0.22
+        },
+        {
+          "candidate": "mos6_stats__mlp16",
+          "mean_date_accuracy": 0.16096491228070176,
+          "pooled_accuracy": 0.184
+        },
+        {
+          "candidate": "mos6_stats__mlp32",
+          "mean_date_accuracy": 0.15833333333333333,
+          "pooled_accuracy": 0.18
+        },
+        {
+          "candidate": "all14_stats__mlp32",
+          "mean_date_accuracy": 0.15657894736842104,
+          "pooled_accuracy": 0.16
+        }
+      ],
+      "test": {
+        "correct": 46,
+        "total": 150,
+        "accuracy": 0.30666666666666664,
+        "macro_f1": 0.2463003663003663
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "sgp4_signature__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__mlp16",
+          "mean_date_accuracy": 0.3357894736842105,
+          "pooled_accuracy": 0.3352941176470588
+        },
+        {
+          "candidate": "dual_h16_a10p0",
+          "mean_date_accuracy": 0.32614035087719295,
+          "pooled_accuracy": 0.34411764705882353
+        },
+        {
+          "candidate": "sgp4_signature__mlp32",
+          "mean_date_accuracy": 0.3249122807017544,
+          "pooled_accuracy": 0.32941176470588235
+        },
+        {
+          "candidate": "dual_h8_a10p0",
+          "mean_date_accuracy": 0.31894736842105265,
+          "pooled_accuracy": 0.3352941176470588
+        },
+        {
+          "candidate": "sgp8_stats__mlp32",
+          "mean_date_accuracy": 0.3187719298245614,
+          "pooled_accuracy": 0.3264705882352941
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp32",
+          "mean_date_accuracy": 0.3126315789473684,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp16",
+          "mean_date_accuracy": 0.3119298245614035,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "sgp8_stats__mlp16",
+          "mean_date_accuracy": 0.28964912280701754,
+          "pooled_accuracy": 0.29705882352941176
+        },
+        {
+          "candidate": "dual_h16_a1p0",
+          "mean_date_accuracy": 0.2824561403508772,
+          "pooled_accuracy": 0.3
+        },
+        {
+          "candidate": "dual_h8_a1p0",
+          "mean_date_accuracy": 0.27543859649122804,
+          "pooled_accuracy": 0.28823529411764703
+        },
+        {
+          "candidate": "dual_h8_a0p1",
+          "mean_date_accuracy": 0.2578947368421053,
+          "pooled_accuracy": 0.2647058823529412
+        },
+        {
+          "candidate": "all14_stats__mlp16",
+          "mean_date_accuracy": 0.24684210526315792,
+          "pooled_accuracy": 0.25
+        },
+        {
+          "candidate": "dual_h16_a0p1",
+          "mean_date_accuracy": 0.22385964912280704,
+          "pooled_accuracy": 0.23529411764705882
+        },
+        {
+          "candidate": "stable10_signature__mlp32",
+          "mean_date_accuracy": 0.21789473684210525,
+          "pooled_accuracy": 0.20588235294117646
+        },
+        {
+          "candidate": "all14_stats__mlp32",
+          "mean_date_accuracy": 0.21280701754385964,
+          "pooled_accuracy": 0.22058823529411764
+        },
+        {
+          "candidate": "stable10_signature__mlp16",
+          "mean_date_accuracy": 0.21157894736842103,
+          "pooled_accuracy": 0.21764705882352942
+        },
+        {
+          "candidate": "mos6_stats__mlp16",
+          "mean_date_accuracy": 0.2094736842105263,
+          "pooled_accuracy": 0.21764705882352942
+        },
+        {
+          "candidate": "stable10_stats__mlp32",
+          "mean_date_accuracy": 0.20666666666666667,
+          "pooled_accuracy": 0.20588235294117646
+        },
+        {
+          "candidate": "mos6_stats__mlp32",
+          "mean_date_accuracy": 0.19105263157894736,
+          "pooled_accuracy": 0.19705882352941176
+        },
+        {
+          "candidate": "stable10_stats__mlp16",
+          "mean_date_accuracy": 0.18350877192982457,
+          "pooled_accuracy": 0.18235294117647058
+        }
+      ],
+      "test": {
+        "correct": 47,
+        "total": 60,
+        "accuracy": 0.7833333333333333,
+        "macro_f1": 0.7805161505161504
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "sgp4_signature__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_signature__mlp16",
+          "mean_date_accuracy": 0.31,
+          "pooled_accuracy": 0.3142857142857143
+        },
+        {
+          "candidate": "dual_h16_a1p0",
+          "mean_date_accuracy": 0.28833333333333333,
+          "pooled_accuracy": 0.2619047619047619
+        },
+        {
+          "candidate": "dual_h8_a0p1",
+          "mean_date_accuracy": 0.2833333333333333,
+          "pooled_accuracy": 0.2619047619047619
+        },
+        {
+          "candidate": "sgp4_signature__mlp32",
+          "mean_date_accuracy": 0.2816666666666667,
+          "pooled_accuracy": 0.28095238095238095
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp16",
+          "mean_date_accuracy": 0.27166666666666667,
+          "pooled_accuracy": 0.2523809523809524
+        },
+        {
+          "candidate": "dual_h16_a0p1",
+          "mean_date_accuracy": 0.27,
+          "pooled_accuracy": 0.2571428571428571
+        },
+        {
+          "candidate": "sgp8_stats__mlp16",
+          "mean_date_accuracy": 0.2633333333333333,
+          "pooled_accuracy": 0.23333333333333334
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp32",
+          "mean_date_accuracy": 0.25666666666666665,
+          "pooled_accuracy": 0.23809523809523808
+        },
+        {
+          "candidate": "sgp8_stats__mlp32",
+          "mean_date_accuracy": 0.24666666666666665,
+          "pooled_accuracy": 0.20952380952380953
+        },
+        {
+          "candidate": "dual_h8_a1p0",
+          "mean_date_accuracy": 0.24166666666666667,
+          "pooled_accuracy": 0.23809523809523808
+        },
+        {
+          "candidate": "dual_h8_a10p0",
+          "mean_date_accuracy": 0.23833333333333334,
+          "pooled_accuracy": 0.23333333333333334
+        },
+        {
+          "candidate": "dual_h16_a10p0",
+          "mean_date_accuracy": 0.21666666666666667,
+          "pooled_accuracy": 0.22380952380952382
+        },
+        {
+          "candidate": "mos6_stats__mlp32",
+          "mean_date_accuracy": 0.13333333333333333,
+          "pooled_accuracy": 0.11904761904761904
+        },
+        {
+          "candidate": "all14_stats__mlp16",
+          "mean_date_accuracy": 0.13,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "stable10_signature__mlp32",
+          "mean_date_accuracy": 0.11666666666666667,
+          "pooled_accuracy": 0.12380952380952381
+        },
+        {
+          "candidate": "stable10_stats__mlp32",
+          "mean_date_accuracy": 0.11499999999999999,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "stable10_signature__mlp16",
+          "mean_date_accuracy": 0.11,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "stable10_stats__mlp16",
+          "mean_date_accuracy": 0.10666666666666666,
+          "pooled_accuracy": 0.10952380952380952
+        },
+        {
+          "candidate": "all14_stats__mlp32",
+          "mean_date_accuracy": 0.10333333333333333,
+          "pooled_accuracy": 0.10476190476190476
+        },
+        {
+          "candidate": "mos6_stats__mlp16",
+          "mean_date_accuracy": 0.09833333333333333,
+          "pooled_accuracy": 0.10476190476190476
+        }
+      ],
+      "test": {
+        "correct": 150,
+        "total": 190,
+        "accuracy": 0.7894736842105263,
+        "macro_f1": 0.7933369516415082
+      }
+    }
+  ],
+  "mos_only": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "mos6_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "mos6_stats__mlp16",
+          "mean_date_accuracy": 0.16096491228070176,
+          "pooled_accuracy": 0.184
+        },
+        {
+          "candidate": "mos6_stats__mlp32",
+          "mean_date_accuracy": 0.15833333333333333,
+          "pooled_accuracy": 0.18
+        }
+      ],
+      "test": {
+        "correct": 28,
+        "total": 150,
+        "accuracy": 0.18666666666666668,
+        "macro_f1": 0.08201931091969991
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "mos6_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "mos6_stats__mlp16",
+          "mean_date_accuracy": 0.2094736842105263,
+          "pooled_accuracy": 0.21764705882352942
+        },
+        {
+          "candidate": "mos6_stats__mlp32",
+          "mean_date_accuracy": 0.19105263157894736,
+          "pooled_accuracy": 0.19705882352941176
+        }
+      ],
+      "test": {
+        "correct": 9,
+        "total": 60,
+        "accuracy": 0.15,
+        "macro_f1": 0.07833333333333332
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "mos6_stats__mlp32",
+      "inner_ranking": [
+        {
+          "candidate": "mos6_stats__mlp32",
+          "mean_date_accuracy": 0.13333333333333333,
+          "pooled_accuracy": 0.11904761904761904
+        },
+        {
+          "candidate": "mos6_stats__mlp16",
+          "mean_date_accuracy": 0.09833333333333333,
+          "pooled_accuracy": 0.10476190476190476
+        }
+      ],
+      "test": {
+        "correct": 65,
+        "total": 190,
+        "accuracy": 0.34210526315789475,
+        "macro_f1": 0.2680742067624712
+      }
+    }
+  ],
+  "sgp4_only": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "sgp4_fixed_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_fixed_stats__mlp16",
+          "mean_date_accuracy": 0.861842105263158,
+          "pooled_accuracy": 0.868
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp32",
+          "mean_date_accuracy": 0.850438596491228,
+          "pooled_accuracy": 0.868
+        }
+      ],
+      "test": {
+        "correct": 46,
+        "total": 150,
+        "accuracy": 0.30666666666666664,
+        "macro_f1": 0.2463003663003663
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "sgp4_fixed_stats__mlp32",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_fixed_stats__mlp32",
+          "mean_date_accuracy": 0.3126315789473684,
+          "pooled_accuracy": 0.3235294117647059
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp16",
+          "mean_date_accuracy": 0.3119298245614035,
+          "pooled_accuracy": 0.3235294117647059
+        }
+      ],
+      "test": {
+        "correct": 46,
+        "total": 60,
+        "accuracy": 0.7666666666666667,
+        "macro_f1": 0.7566660532450007
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "sgp4_fixed_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp4_fixed_stats__mlp16",
+          "mean_date_accuracy": 0.27166666666666667,
+          "pooled_accuracy": 0.2523809523809524
+        },
+        {
+          "candidate": "sgp4_fixed_stats__mlp32",
+          "mean_date_accuracy": 0.25666666666666665,
+          "pooled_accuracy": 0.23809523809523808
+        }
+      ],
+      "test": {
+        "correct": 138,
+        "total": 190,
+        "accuracy": 0.7263157894736842,
+        "macro_f1": 0.730580256403066
+      }
+    }
+  ],
+  "sgp8_only": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "sgp8_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp8_stats__mlp16",
+          "mean_date_accuracy": 0.8078947368421052,
+          "pooled_accuracy": 0.812
+        },
+        {
+          "candidate": "sgp8_stats__mlp32",
+          "mean_date_accuracy": 0.7916666666666667,
+          "pooled_accuracy": 0.796
+        }
+      ],
+      "test": {
+        "correct": 35,
+        "total": 150,
+        "accuracy": 0.23333333333333334,
+        "macro_f1": 0.1674150708049013
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "sgp8_stats__mlp32",
+      "inner_ranking": [
+        {
+          "candidate": "sgp8_stats__mlp32",
+          "mean_date_accuracy": 0.3187719298245614,
+          "pooled_accuracy": 0.3264705882352941
+        },
+        {
+          "candidate": "sgp8_stats__mlp16",
+          "mean_date_accuracy": 0.28964912280701754,
+          "pooled_accuracy": 0.29705882352941176
+        }
+      ],
+      "test": {
+        "correct": 47,
+        "total": 60,
+        "accuracy": 0.7833333333333333,
+        "macro_f1": 0.7847374194433018
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "sgp8_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "sgp8_stats__mlp16",
+          "mean_date_accuracy": 0.2633333333333333,
+          "pooled_accuracy": 0.23333333333333334
+        },
+        {
+          "candidate": "sgp8_stats__mlp32",
+          "mean_date_accuracy": 0.24666666666666665,
+          "pooled_accuracy": 0.20952380952380953
+        }
+      ],
+      "test": {
+        "correct": 138,
+        "total": 190,
+        "accuracy": 0.7263157894736842,
+        "macro_f1": 0.7260756423109159
+      }
+    }
+  ],
+  "early_fusion": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "stable10_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "stable10_stats__mlp16",
+          "mean_date_accuracy": 0.22587719298245612,
+          "pooled_accuracy": 0.248
+        },
+        {
+          "candidate": "stable10_stats__mlp32",
+          "mean_date_accuracy": 0.19605263157894737,
+          "pooled_accuracy": 0.22
+        }
+      ],
+      "test": {
+        "correct": 36,
+        "total": 150,
+        "accuracy": 0.24,
+        "macro_f1": 0.138598475827578
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "stable10_stats__mlp32",
+      "inner_ranking": [
+        {
+          "candidate": "stable10_stats__mlp32",
+          "mean_date_accuracy": 0.20666666666666667,
+          "pooled_accuracy": 0.20588235294117646
+        },
+        {
+          "candidate": "stable10_stats__mlp16",
+          "mean_date_accuracy": 0.18350877192982457,
+          "pooled_accuracy": 0.18235294117647058
+        }
+      ],
+      "test": {
+        "correct": 20,
+        "total": 60,
+        "accuracy": 0.3333333333333333,
+        "macro_f1": 0.2759589247961341
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "stable10_stats__mlp32",
+      "inner_ranking": [
+        {
+          "candidate": "stable10_stats__mlp32",
+          "mean_date_accuracy": 0.11499999999999999,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "stable10_stats__mlp16",
+          "mean_date_accuracy": 0.10666666666666666,
+          "pooled_accuracy": 0.10952380952380952
+        }
+      ],
+      "test": {
+        "correct": 156,
+        "total": 190,
+        "accuracy": 0.8210526315789474,
+        "macro_f1": 0.8141989500835001
+      }
+    }
+  ],
+  "early_all14": [
+    {
+      "held_date": "2026-05-17",
+      "selected": "all14_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "all14_stats__mlp16",
+          "mean_date_accuracy": 0.23114035087719298,
+          "pooled_accuracy": 0.256
+        },
+        {
+          "candidate": "all14_stats__mlp32",
+          "mean_date_accuracy": 0.15657894736842104,
+          "pooled_accuracy": 0.16
+        }
+      ],
+      "test": {
+        "correct": 36,
+        "total": 150,
+        "accuracy": 0.24,
+        "macro_f1": 0.1427776387150605
+      }
+    },
+    {
+      "held_date": "2026-05-18",
+      "selected": "all14_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "all14_stats__mlp16",
+          "mean_date_accuracy": 0.24684210526315792,
+          "pooled_accuracy": 0.25
+        },
+        {
+          "candidate": "all14_stats__mlp32",
+          "mean_date_accuracy": 0.21280701754385964,
+          "pooled_accuracy": 0.22058823529411764
+        }
+      ],
+      "test": {
+        "correct": 15,
+        "total": 60,
+        "accuracy": 0.25,
+        "macro_f1": 0.19531746031746033
+      }
+    },
+    {
+      "held_date": "2026-05-19",
+      "selected": "all14_stats__mlp16",
+      "inner_ranking": [
+        {
+          "candidate": "all14_stats__mlp16",
+          "mean_date_accuracy": 0.13,
+          "pooled_accuracy": 0.11428571428571428
+        },
+        {
+          "candidate": "all14_stats__mlp32",
+          "mean_date_accuracy": 0.10333333333333333,
+          "pooled_accuracy": 0.10476190476190476
+        }
+      ],
+      "test": {
+        "correct": 142,
+        "total": 190,
+        "accuracy": 0.7473684210526316,
+        "macro_f1": 0.7327219439233882
+      }
+    }
+  ]
+}

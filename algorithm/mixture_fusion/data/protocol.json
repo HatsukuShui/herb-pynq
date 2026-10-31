@@ -1,0 +1,81 @@
+{
+  "raw_sha256": "62ea91251638e3f313be53c35e84f4f79b5f2423c2d78b6e595958dbc3892ebc",
+  "original_name": "20261009-原始数据（大数据集）（含标签）-余正心-v1.zip",
+  "status_counts": {
+    "normal": 40,
+    "excluded_cap": 11,
+    "excluded_unlabelled": 3,
+    "reverse_diagnostic": 1
+  },
+  "normal_events": 400,
+  "reverse_events": 10,
+  "original_channels": [
+    "MOS1(k)",
+    "MOS2(k)",
+    "MOS3(k)",
+    "MOS4(k)",
+    "MOS5(k)",
+    "MOS6(k)",
+    "SGP1",
+    "SGP2",
+    "SGP3",
+    "SGP4",
+    "SGP5",
+    "SGP6",
+    "SGP7",
+    "SGP8"
+  ],
+  "stable_fusion_channels": [
+    "MOS1(k)",
+    "MOS2(k)",
+    "MOS3(k)",
+    "MOS4(k)",
+    "MOS5(k)",
+    "MOS6(k)",
+    "SGP5",
+    "SGP6",
+    "SGP7",
+    "SGP8"
+  ],
+  "top_level_unique_hashes": 55,
+  "nested_records": 44,
+  "nested_duplicate_count": 44,
+  "normal_class_counts": {
+    "1": 40,
+    "2": 40,
+    "3": 40,
+    "4": 40,
+    "5": 40,
+    "6": 40,
+    "7": 40,
+    "8": 40,
+    "9": 40,
+    "10": 40
+  },
+  "label_rule": "normal 1..10; reverse 10..1; caps and unlabelled partial tests excluded",
+  "baseline_seconds": [
+    -8,
+    -3
+  ],
+  "response_seconds": [
+    0,
+    35
+  ],
+  "sample_grid_seconds": 0.5,
+  "input_metadata_excluded": [
+    "class_id",
+    "event_index",
+    "record_id",
+    "filename",
+    "day",
+    "absolute_time"
+  ],
+  "limitations": [
+    "fixed order confounding",
+    "offline onset detection",
+    "three dates only",
+    "local baseline not verified clean air"
+  ],
+  "no_pretrained_models": true,
+  "extraction_source": "new feature implementation authored during this conversation"
+}

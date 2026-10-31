@@ -1,0 +1,48 @@
+{
+  "candidate": {
+    "id": "sgp4_signature__svm_3",
+    "view": "sgp4_signature",
+    "family": "traditional",
+    "kind": "svm",
+    "c": 3.0
+  },
+  "labels": [
+    "当归+甘草",
+    "当归+川芎",
+    "当归+肉桂",
+    "当归+熟地黄",
+    "甘草+川芎",
+    "甘草+肉桂",
+    "甘草+熟地黄",
+    "川芎+肉桂",
+    "川芎+熟地黄",
+    "肉桂+熟地黄"
+  ],
+  "class_encoding": "arrays 0..9; external IDs 1..10",
+  "kernel": "RBF",
+  "prediction": "scikit-learn SVC multiclass pairwise scores -> OVR decision_function; argmax matches experiment rank selection",
+  "support_vectors": 256,
+  "arrays": {
+    "mean": [
+      80
+    ],
+    "scale": [
+      80
+    ],
+    "support_vectors": [
+      256,
+      80
+    ],
+    "dual_coef": [
+      9,
+      256
+    ],
+    "intercept": [
+      45
+    ],
+    "n_support": [
+      10
+    ],
+    "gamma": []
+  }
+}

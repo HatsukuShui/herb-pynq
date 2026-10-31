@@ -1,0 +1,505 @@
+{
+  "seed": 20261012,
+  "candidates": [
+    {
+      "id": "mos6_stats__lda",
+      "view": "mos6_stats",
+      "family": "traditional",
+      "kind": "lda"
+    },
+    {
+      "id": "mos6_stats__svm_03",
+      "view": "mos6_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 0.3
+    },
+    {
+      "id": "mos6_stats__svm_3",
+      "view": "mos6_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 3.0
+    },
+    {
+      "id": "mos6_stats__trees",
+      "view": "mos6_stats",
+      "family": "traditional",
+      "kind": "trees"
+    },
+    {
+      "id": "mos6_stats__mlp16",
+      "view": "mos6_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 16
+    },
+    {
+      "id": "mos6_stats__mlp32",
+      "view": "mos6_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 32
+    },
+    {
+      "id": "sgp4_fixed_stats__lda",
+      "view": "sgp4_fixed_stats",
+      "family": "traditional",
+      "kind": "lda"
+    },
+    {
+      "id": "sgp4_fixed_stats__svm_03",
+      "view": "sgp4_fixed_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 0.3
+    },
+    {
+      "id": "sgp4_fixed_stats__svm_3",
+      "view": "sgp4_fixed_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 3.0
+    },
+    {
+      "id": "sgp4_fixed_stats__trees",
+      "view": "sgp4_fixed_stats",
+      "family": "traditional",
+      "kind": "trees"
+    },
+    {
+      "id": "sgp4_fixed_stats__mlp16",
+      "view": "sgp4_fixed_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 16
+    },
+    {
+      "id": "sgp4_fixed_stats__mlp32",
+      "view": "sgp4_fixed_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 32
+    },
+    {
+      "id": "sgp8_stats__lda",
+      "view": "sgp8_stats",
+      "family": "traditional",
+      "kind": "lda"
+    },
+    {
+      "id": "sgp8_stats__svm_03",
+      "view": "sgp8_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 0.3
+    },
+    {
+      "id": "sgp8_stats__svm_3",
+      "view": "sgp8_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 3.0
+    },
+    {
+      "id": "sgp8_stats__trees",
+      "view": "sgp8_stats",
+      "family": "traditional",
+      "kind": "trees"
+    },
+    {
+      "id": "sgp8_stats__mlp16",
+      "view": "sgp8_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 16
+    },
+    {
+      "id": "sgp8_stats__mlp32",
+      "view": "sgp8_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 32
+    },
+    {
+      "id": "stable10_stats__lda",
+      "view": "stable10_stats",
+      "family": "traditional",
+      "kind": "lda"
+    },
+    {
+      "id": "stable10_stats__svm_03",
+      "view": "stable10_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 0.3
+    },
+    {
+      "id": "stable10_stats__svm_3",
+      "view": "stable10_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 3.0
+    },
+    {
+      "id": "stable10_stats__trees",
+      "view": "stable10_stats",
+      "family": "traditional",
+      "kind": "trees"
+    },
+    {
+      "id": "stable10_stats__mlp16",
+      "view": "stable10_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 16
+    },
+    {
+      "id": "stable10_stats__mlp32",
+      "view": "stable10_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 32
+    },
+    {
+      "id": "all14_stats__lda",
+      "view": "all14_stats",
+      "family": "traditional",
+      "kind": "lda"
+    },
+    {
+      "id": "all14_stats__svm_03",
+      "view": "all14_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 0.3
+    },
+    {
+      "id": "all14_stats__svm_3",
+      "view": "all14_stats",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 3.0
+    },
+    {
+      "id": "all14_stats__trees",
+      "view": "all14_stats",
+      "family": "traditional",
+      "kind": "trees"
+    },
+    {
+      "id": "all14_stats__mlp16",
+      "view": "all14_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 16
+    },
+    {
+      "id": "all14_stats__mlp32",
+      "view": "all14_stats",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 32
+    },
+    {
+      "id": "sgp4_signature__lda",
+      "view": "sgp4_signature",
+      "family": "traditional",
+      "kind": "lda"
+    },
+    {
+      "id": "sgp4_signature__svm_03",
+      "view": "sgp4_signature",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 0.3
+    },
+    {
+      "id": "sgp4_signature__svm_3",
+      "view": "sgp4_signature",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 3.0
+    },
+    {
+      "id": "sgp4_signature__trees",
+      "view": "sgp4_signature",
+      "family": "traditional",
+      "kind": "trees"
+    },
+    {
+      "id": "sgp4_signature__mlp16",
+      "view": "sgp4_signature",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 16
+    },
+    {
+      "id": "sgp4_signature__mlp32",
+      "view": "sgp4_signature",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 32
+    },
+    {
+      "id": "stable10_signature__lda",
+      "view": "stable10_signature",
+      "family": "traditional",
+      "kind": "lda"
+    },
+    {
+      "id": "stable10_signature__svm_03",
+      "view": "stable10_signature",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 0.3
+    },
+    {
+      "id": "stable10_signature__svm_3",
+      "view": "stable10_signature",
+      "family": "traditional",
+      "kind": "svm",
+      "c": 3.0
+    },
+    {
+      "id": "stable10_signature__trees",
+      "view": "stable10_signature",
+      "family": "traditional",
+      "kind": "trees"
+    },
+    {
+      "id": "stable10_signature__mlp16",
+      "view": "stable10_signature",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 16
+    },
+    {
+      "id": "stable10_signature__mlp32",
+      "view": "stable10_signature",
+      "family": "flat_neural",
+      "kind": "mlp",
+      "hidden": 32
+    },
+    {
+      "id": "dual_h8_a0p1",
+      "view": "stable10_stats",
+      "family": "dual_neural",
+      "kind": "dual",
+      "hidden": 8,
+      "alpha": 0.1
+    },
+    {
+      "id": "dual_h8_a1p0",
+      "view": "stable10_stats",
+      "family": "dual_neural",
+      "kind": "dual",
+      "hidden": 8,
+      "alpha": 1.0
+    },
+    {
+      "id": "dual_h8_a10p0",
+      "view": "stable10_stats",
+      "family": "dual_neural",
+      "kind": "dual",
+      "hidden": 8,
+      "alpha": 10.0
+    },
+    {
+      "id": "dual_h16_a0p1",
+      "view": "stable10_stats",
+      "family": "dual_neural",
+      "kind": "dual",
+      "hidden": 16,
+      "alpha": 0.1
+    },
+    {
+      "id": "dual_h16_a1p0",
+      "view": "stable10_stats",
+      "family": "dual_neural",
+      "kind": "dual",
+      "hidden": 16,
+      "alpha": 1.0
+    },
+    {
+      "id": "dual_h16_a10p0",
+      "view": "stable10_stats",
+      "family": "dual_neural",
+      "kind": "dual",
+      "hidden": 16,
+      "alpha": 10.0
+    },
+    {
+      "id": "late_mos25",
+      "view": "stable10_stats",
+      "family": "late_fusion",
+      "kind": "late",
+      "mos_weight": 0.25
+    },
+    {
+      "id": "late_mos50",
+      "view": "stable10_stats",
+      "family": "late_fusion",
+      "kind": "late",
+      "mos_weight": 0.5
+    },
+    {
+      "id": "late_mos75",
+      "view": "stable10_stats",
+      "family": "late_fusion",
+      "kind": "late",
+      "mos_weight": 0.75
+    }
+  ],
+  "families": {
+    "traditional": [
+      "mos6_stats__lda",
+      "mos6_stats__svm_03",
+      "mos6_stats__svm_3",
+      "mos6_stats__trees",
+      "sgp4_fixed_stats__lda",
+      "sgp4_fixed_stats__svm_03",
+      "sgp4_fixed_stats__svm_3",
+      "sgp4_fixed_stats__trees",
+      "sgp8_stats__lda",
+      "sgp8_stats__svm_03",
+      "sgp8_stats__svm_3",
+      "sgp8_stats__trees",
+      "stable10_stats__lda",
+      "stable10_stats__svm_03",
+      "stable10_stats__svm_3",
+      "stable10_stats__trees",
+      "all14_stats__lda",
+      "all14_stats__svm_03",
+      "all14_stats__svm_3",
+      "all14_stats__trees",
+      "sgp4_signature__lda",
+      "sgp4_signature__svm_03",
+      "sgp4_signature__svm_3",
+      "sgp4_signature__trees",
+      "stable10_signature__lda",
+      "stable10_signature__svm_03",
+      "stable10_signature__svm_3",
+      "stable10_signature__trees"
+    ],
+    "lda": [
+      "mos6_stats__lda",
+      "sgp4_fixed_stats__lda",
+      "sgp8_stats__lda",
+      "stable10_stats__lda",
+      "all14_stats__lda",
+      "sgp4_signature__lda",
+      "stable10_signature__lda"
+    ],
+    "svm": [
+      "mos6_stats__svm_03",
+      "mos6_stats__svm_3",
+      "sgp4_fixed_stats__svm_03",
+      "sgp4_fixed_stats__svm_3",
+      "sgp8_stats__svm_03",
+      "sgp8_stats__svm_3",
+      "stable10_stats__svm_03",
+      "stable10_stats__svm_3",
+      "all14_stats__svm_03",
+      "all14_stats__svm_3",
+      "sgp4_signature__svm_03",
+      "sgp4_signature__svm_3",
+      "stable10_signature__svm_03",
+      "stable10_signature__svm_3"
+    ],
+    "extra_trees": [
+      "mos6_stats__trees",
+      "sgp4_fixed_stats__trees",
+      "sgp8_stats__trees",
+      "stable10_stats__trees",
+      "all14_stats__trees",
+      "sgp4_signature__trees",
+      "stable10_signature__trees"
+    ],
+    "flat_neural": [
+      "mos6_stats__mlp16",
+      "mos6_stats__mlp32",
+      "sgp4_fixed_stats__mlp16",
+      "sgp4_fixed_stats__mlp32",
+      "sgp8_stats__mlp16",
+      "sgp8_stats__mlp32",
+      "stable10_stats__mlp16",
+      "stable10_stats__mlp32",
+      "all14_stats__mlp16",
+      "all14_stats__mlp32",
+      "sgp4_signature__mlp16",
+      "sgp4_signature__mlp32",
+      "stable10_signature__mlp16",
+      "stable10_signature__mlp32"
+    ],
+    "dual_neural": [
+      "dual_h8_a0p1",
+      "dual_h8_a1p0",
+      "dual_h8_a10p0",
+      "dual_h16_a0p1",
+      "dual_h16_a1p0",
+      "dual_h16_a10p0"
+    ],
+    "late_fusion": [
+      "late_mos25",
+      "late_mos50",
+      "late_mos75"
+    ],
+    "all_light_neural": [
+      "mos6_stats__mlp16",
+      "mos6_stats__mlp32",
+      "sgp4_fixed_stats__mlp16",
+      "sgp4_fixed_stats__mlp32",
+      "sgp8_stats__mlp16",
+      "sgp8_stats__mlp32",
+      "stable10_stats__mlp16",
+      "stable10_stats__mlp32",
+      "all14_stats__mlp16",
+      "all14_stats__mlp32",
+      "sgp4_signature__mlp16",
+      "sgp4_signature__mlp32",
+      "stable10_signature__mlp16",
+      "stable10_signature__mlp32",
+      "dual_h8_a0p1",
+      "dual_h8_a1p0",
+      "dual_h8_a10p0",
+      "dual_h16_a0p1",
+      "dual_h16_a1p0",
+      "dual_h16_a10p0"
+    ],
+    "mos_only": [
+      "mos6_stats__mlp16",
+      "mos6_stats__mlp32"
+    ],
+    "sgp4_only": [
+      "sgp4_fixed_stats__mlp16",
+      "sgp4_fixed_stats__mlp32"
+    ],
+    "sgp8_only": [
+      "sgp8_stats__mlp16",
+      "sgp8_stats__mlp32"
+    ],
+    "early_fusion": [
+      "stable10_stats__mlp16",
+      "stable10_stats__mlp32"
+    ],
+    "early_all14": [
+      "all14_stats__mlp16",
+      "all14_stats__mlp32"
+    ]
+  },
+  "primary": "nested leave-date-out family comparison",
+  "selection": "mean inner date accuracy; pooled accuracy; ID",
+  "ordinary_file_cv": "five grouped folds, fixed selected configurations; secondary and post-selection",
+  "reverse": "diagnostic only, previously inspected in this conversation; never fresh blind test",
+  "no_pretrained_weights": true,
+  "historical_data_reused": true,
+  "preprocessing": "StandardScaler fitted within each training fold; metadata never input",
+  "scopes": "MOS + SGP sensors only; no image modality",
+  "optimizer_max_iter": 8000,
+  "convergence_change": "Raised initial 1600 limit to 8000 after three convergence warnings; no hyperparameter-grid expansion",
+  "gradient_check": {
+    "parameters_checked": 40,
+    "max_absolute_error": 6.34260734211356e-10
+  }
+}

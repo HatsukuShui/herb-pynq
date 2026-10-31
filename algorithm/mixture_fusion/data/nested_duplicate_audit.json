@@ -1,0 +1,266 @@
+[
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/1.csv",
+    "sha256": "f87c197b3409b13b74d60aa8af6f7afa7f930fd29b58bea91902e8af1b83c071",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/10.csv",
+    "sha256": "581bdd5a995bc539e8d44c3e035f1d7d5e3fb9fa88d89d159d09ea0161a3cc74",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/11.csv",
+    "sha256": "27772d287fb309e29aa92dc70cefc04c32601642f13db15d67650dee8f4a7e73",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/2.csv",
+    "sha256": "386628c3be1cacd55f0e16747d6c88676970daa960be23aa558395572108286e",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/3.csv",
+    "sha256": "2d48b1ce4001f6ddd2d4181c987df14c28bbf1729195ee1fe11e4e2c7bb8eac1",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/4.csv",
+    "sha256": "ec3b6135d80ae887f033fa5f2d463134b9f732362702b6db97c51537304f2a39",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/5.csv",
+    "sha256": "1cf517091cb548b98a4775f6e23f7be24ceb9cd69cc9485e4738efc59b2e77b0",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/6.csv",
+    "sha256": "0804433603502a56871fa9ff7f559f2d44d1eb7f2d80d4fd995ac6d1366cd14a",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/7.csv",
+    "sha256": "cfc94854bc1040d82413101b945e4265fa0e3373b06fb01e7b6ad27fe2ffd6d3",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/8.csv",
+    "sha256": "184feb5bb1a8817b4b2447dccb03f375fa48c33fcc7e29f0767fbacd15d6fa5b",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/0518/盖帽.zip",
+    "source": "盖帽/9.csv",
+    "sha256": "239aef8380a1484ce236c6757779149bef135a2132d9384395b0e65dcfd130e6",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-1.csv",
+    "sha256": "bf1dacfc3445e04d055ce08e59848c60ae06db2e7013118d3a774edd08dac4e0",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-10反序.csv",
+    "sha256": "be7da2efa90b41fc111421852c3d537223ab98973675baf084afb922ea8d0a6d",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-2.csv",
+    "sha256": "36ca967c450690b7f4fc296ebea6d6ce63e674a8dbae1a4929ad63427498eb1a",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-3.csv",
+    "sha256": "42a137cd755b31a5934b652e0aa1f88832347c7dc4224728f06829445c83f764",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-4.csv",
+    "sha256": "c1f809554cd061481575981da0aa67b408fd6c440fb199ccb052d528e6020cf1",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-5.csv",
+    "sha256": "1d8991f94350e95cc6b41258cf30f71687649090e032adc449f77fed1299fef3",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-6.csv",
+    "sha256": "277c867c4bac394d4071b67509eae01dceadfbb5c4502df42bb82feffd675a00",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-7.csv",
+    "sha256": "ce3b98269abdb84a69a883e6a50089fa92fc857cd818bd73e862fb08dbcf49bb",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-8.csv",
+    "sha256": "1612bd9b698b672d6218ab026bf019cea90159a0b9c835867f84e3289526ef20",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0517下午.zip",
+    "source": "0517下午/0517下午-9.csv",
+    "sha256": "8b3833fb8d31520fcd4c9fa6b2ebb2d75bbdffcdb3a28fe026ccaa200a4be4b8",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0518.zip",
+    "source": "0518/1.csv",
+    "sha256": "b018f9ac52fe5f0b03d339bd953fc38a603fae0e5d4b8c31c4c73e6d7ffb7937",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0518.zip",
+    "source": "0518/2.csv",
+    "sha256": "ec9387ab8947bd24682e6c9178dc7af7a2e8c6683cc06f350734bc5f0f00ccdd",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0518.zip",
+    "source": "0518/3.csv",
+    "sha256": "cc41f3549ecbe408e0b1b6f8af0d578b1a8e0aa17da194fc15f29468c5e35e74",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0518.zip",
+    "source": "0518/4.csv",
+    "sha256": "a685c7845bbf79e35ad38738b1603381965473e4479e194b681cafe4ead8fbd0",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0518.zip",
+    "source": "0518/5.csv",
+    "sha256": "a0bf3adecad03e4a6c14fe009be2d749a6fb7d9e5dd9efd3ca9ee59b5c5346aa",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0518.zip",
+    "source": "0518/6.csv",
+    "sha256": "d5b62adfef932845c7f621eacf8d32f5f494046c65c1a55297325256c7b61877",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/1.csv",
+    "sha256": "d8f93ca429432c61e4e6d3c970b92a107000dec59f4f2b92b95414a3281b41bf",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/10.csv",
+    "sha256": "403e101defe4681edc8a8a714f32e6235f716e7342871d91fa62c88bfdb61ed3",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/11.csv",
+    "sha256": "45804bea9b336f8144a4e436360b9c1f71add2d69600a754e7db4d620e46db64",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/2.csv",
+    "sha256": "0502da663e519bd34db6980f965bcf356e9a889a028f2db6603773156b921634",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/3.csv",
+    "sha256": "a3c7f0c1b62f41c2abbde250b4d41307cbe185ed9c53c18e49fc11a38f801d71",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/4.csv",
+    "sha256": "e586dce3c9db8f51aff5c3574ccb5287b9a48081a8db8ee6ebd65247cd5656d4",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/5.csv",
+    "sha256": "6e60e45bb3ee208cd6266a938b5d70961c95d1bace0bbde909f1422cb64c1057",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/6.csv",
+    "sha256": "185b525bab4745fd8358cae8298a6f39e8b18b74de81270d2cf4c34014d4017e",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/7.csv",
+    "sha256": "e5e91b08eca23733d2ffeb76240e4ba35de87e020ac64e0f80d275c76f88f6ea",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/8.csv",
+    "sha256": "246cd7b2f9ecbb93d33e7ce3d495621404fe53cc956ac14811458ca159e4fa5c",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/0519.zip",
+    "source": "0519/9.csv",
+    "sha256": "73d360303f6d804c6682c230c47abef97347d01bae8f66d956a185d6df77748b",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/中药0517.zip",
+    "source": "新建文件夹/1.csv",
+    "sha256": "dcdb34eddd26f50d6005198b7abbf671e3e648c30b956a0a642d58a7d4baa8bd",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/中药0517.zip",
+    "source": "新建文件夹/2.csv",
+    "sha256": "231c706f2840e7cdf63cb40b2d4b37758f5edc7fd293d89653166570d1cffffe",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/中药0517.zip",
+    "source": "新建文件夹/3.csv",
+    "sha256": "8540b231148d046a13b921229b42eb638456b7d12a5c8525c893b7a1e2925c85",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/中药0517.zip",
+    "source": "新建文件夹/4.csv",
+    "sha256": "a8438d459d7469fc2f8144e2fc45770d9f42bd8632be78f2652d0055d7007583",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/中药0517.zip",
+    "source": "新建文件夹/5.csv",
+    "sha256": "519aad1fdc310a18bd286f29b72cdbffd7e46ece5692c01c76304187b9ea1484",
+    "duplicates_top_level": true
+  },
+  {
+    "archive": "20261009-原始数据（大数据集）（含标签）-余正心-v1/中药0517上午/中药0517.zip",
+    "source": "新建文件夹/6.csv",
+    "sha256": "5f363349d8fdd865d34ff8b13e8cf9a2ca606acc660eff654a432e7ee4dcb7ce",
+    "duplicates_top_level": true
+  }
+]
