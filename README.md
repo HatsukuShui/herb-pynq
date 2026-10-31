@@ -87,7 +87,7 @@ python algorithm/mixture_fusion/src/train_compare.py
 
 ## 固件与本地检查
 
-使用 Keil MDK 打开 `hardware/firmware/MDK-ARM/robot.uvprojx`；原理图使用嘉立创 EDA 打开 `hardware/schematic/TO6+SGP.eprj2`。固件包含传感器、SPI ADC、温湿度、加热、泵和通信相关代码。本次整理未重新编译或烧录固件。
+使用 Keil MDK 打开 `hardware/firmware/MDK-ARM/robot.uvprojx`；原理图使用嘉立创 EDA 打开 `hardware/schematic/TO6+SGP.eprj2`。固件包含传感器、SPI ADC、温湿度、加热、泵和通信相关代码。
 
 以下检查无需开发板，也不执行综合：
 
